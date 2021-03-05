@@ -11,8 +11,8 @@
   DTS:LocaleID="2060"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="51"
-  DTS:VersionGUID="{E287413A-9295-4E3B-A1B9-79B7009EA31C}">
+  DTS:VersionBuild="68"
+  DTS:VersionGUID="{803532FF-BBCD-48EA-934A-F6B9EB2E8B81}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWLju8Dp2y0yvFvRo04cgowAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABb6I/nFXEI+5FdGFcJ0OladcSHaoAvPRUeFc9lnPjq2QAAAAAOgAAAAAIAACAAAACN72H/4ZIZiuLo0LJEMONdA6v76yA+yORCtuT/X3jJKzAAAADJftMl0yyXJx5FeM52baf/toSsR15mtR5bKo3o5vvnZr7VWmOkuBIZXzN4Lv4z+gVAAAAA4tkihSGFmb5MGUFWWJlt04g4DoSHilPZXfFTLSx329C4L/2qSgmb0lV6SxDQ8vayHxPVAvk4xFDmdsdmLJQdJg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWLju8Dp2y0yvFvRo04cgowAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADN3BCoi7SpLR+cx6GNVW/UKQS9ViIunBJzojHbm1PEHQAAAAAOgAAAAAIAACAAAACjjlLPg/3qLhcwY5vPEjAZBkjqYo+TRq0/Jqibr+xv6DAAAABYGUSAzYFSX/PFkwK6y+rhYCb3IETmzCvXmmCFAZNlwMskuLQcdgw5r3ngU7n1Ic5AAAAArvy28lHK+hm0I+scT37RAIc+vn0HmoTyghhBo2PtOC3dZlv3IT+T/uD0dKTyJo3qqwNKroOKVIZmn79AbwsfSg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWLju8Dp2y0yvFvRo04cgowAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADA7sXOCBJmMuhO/3qv90RuINWepffUo+HKz8SbTZqI9gAAAAAOgAAAAAIAACAAAABVgtOvIGQKeiiP6n04PfBnMGpBduArFJbmFXlej0jakCAAAACjfXSd2G3IWdwvBQxRY4EX3f3s/qDL1X73nyyqrfYlnEAAAABxF7OyNkScVm8y/5upNknVGYCGwIUPcjV5TMTvR6GIeMxE2CrgCsRMJJEzLXnQYpYFstKvM0GhE4YwZlwhVFfR</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWLju8Dp2y0yvFvRo04cgowAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD9PQ3l67ZSgC2RIiptcc4rgmvPota0/O3R7Bih6kGfUgAAAAAOgAAAAAIAACAAAAAz5xwOoaLonJi54b3K+mphY5uYEXRqTE6WRwz8zKYOhiAAAADxagTHglZ1TKl7+IY/BbHn9klXs1GQ9Ijy3Mdh9ZYpjEAAAADS+kkL57QGIps56jv6P2tFg5C+5EBPk9gszjZNC8yK/VeJzhywxEsn5VsjrjZ6R3xjewiufHpZt8I8jbjLlxPo</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -66,32 +66,43 @@
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="3"
               DTS:TextQualified="True"
-              DTS:ObjectName="RestaurantKey"
-              DTS:DTSID="{219917FF-8139-4436-B5C7-FC9938EC4B33}"
+              DTS:ObjectName="Score"
+              DTS:DTSID="{7557F9C5-9989-45DF-8AEF-07F182166E64}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="5"
               DTS:TextQualified="True"
-              DTS:ObjectName="QuantitéJetée"
-              DTS:DTSID="{D004280D-F845-4B29-81AC-473405C411BE}"
+              DTS:ObjectName="DeliveryTime"
+              DTS:DTSID="{D4E20C0D-0F79-4AFE-8EB1-ECC1CDC77AE7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
+              DTS:MaximumWidth="100"
+              DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="IngredientKey"
-              DTS:DTSID="{063FBBAF-204D-4B97-ACEF-27BE39F9E1D2}"
+              DTS:ObjectName="SupplierName"
+              DTS:DTSID="{2FB4BF82-BB4C-48D3-B231-248B40F6E41C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="RegionName"
+              DTS:DTSID="{93795EFF-8016-4D2B-B148-255E33B94571}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:DataType="135"
+              DTS:MaximumWidth="100"
+              DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="Date"
-              DTS:DTSID="{8A488186-0604-4991-A0EA-5EC75AEDAD52}"
+              DTS:ObjectName="CountryName"
+              DTS:DTSID="{34213EFE-0AEF-441B-913B-B6B4397EC1BF}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -114,7 +125,7 @@
       DTS:ObjectName="Gestionnaire de connexions Excel 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\aurel\Desktop\test.xlsx;Extended Properties=&quot;Excel 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\aurel\Desktop\test.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -2614,7 +2625,6 @@ where [refTable].[id] = ?</property>
           DTS:refId="Package\Load Dimensions\Load Supplier"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tâche de flux de données"
-          DTS:Disabled="True"
           DTS:DTSID="{84831F4F-9FD2-4335-B7FC-EEAFABF1B6DE}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -2626,11 +2636,327 @@ where [refTable].[id] = ?</property>
               version="1">
               <components>
                 <component
-                  refId="Package\Load Dimensions\Load Supplier\Destination Supplier"
+                  refId="Package\Load Dimensions\Load Supplier\Agrégation"
+                  componentClassID="Microsoft.Aggregate"
+                  contactInfo="Agrégation;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;3"
+                  description="Agrège des données avec des fonctions telles que Moyenne, Somme, Nombre, Max.et Min. Par exemple, regroupez des données pour calculer la somme des ventes par produit ou la moyenne des visites par jour."
+                  name="Agrégation"
+                  version="3">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="Spécifie le nombre approximatif de clés GROUP BY produites par l'agrégation. Basse indique 500 000 valeurs de clés, Moyenne indique 5 millions de valeurs de clés et Haute indique plus de 25 millions de valeurs de clés. Non spécifié indique qu'aucune valeur KeyScale n'est utilisée."
+                      name="KeyScale"
+                      typeConverter="KeyScaleType">0</property>
+                    <property
+                      dataType="System.Null"
+                      description="Spécifie le nombre exact de clés GROUP BY produites par l'agrégation. Si une valeur KeyScale est spécifiée, la valeur dans Keys est prioritaire."
+                      name="Keys" />
+                    <property
+                      dataType="System.Int32"
+                      description="Spécifie le nombre approximatif de valeurs distinctes totalisé distinctement par l'agrégation dans une colonne. Basse indique 500 000 valeurs de clés, Moyenne indique 5 millions de valeurs de clés et Haute indique plus de 25 millions de valeurs de clés. Non spécifié indique qu'aucune valeur CountDistinctScale n'est utilisée."
+                      name="CountDistinctScale"
+                      typeConverter="KeyScaleType">0</property>
+                    <property
+                      dataType="System.Null"
+                      description="Spécifie le nombre exact de valeurs distinctes totalisées distinctement par l'agrégation dans une colonne. Si une valeur CountDistinctScale est spécifiée, la valeur dans CountDistinctKeys est prioritaire."
+                      name="CountDistinctKeys" />
+                    <property
+                      dataType="System.Int32"
+                      description="Spécifie le pourcentage possible d'extension de la mémoire pendant l'agrégation. Les valeurs valides vont de 1 à 100."
+                      name="AutoExtendFactor">25</property>
+                  </properties>
+                  <inputs>
+                    <input
+                      refId="Package\Load Dimensions\Load Supplier\Agrégation.Inputs[Entrée d'agrégation 1]"
+                      name="Entrée d'agrégation 1">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Agrégation.Inputs[Entrée d'agrégation 1].Columns[DeliveryTime]"
+                          cachedDataType="i4"
+                          cachedName="DeliveryTime"
+                          lineageId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[DeliveryTime]" />
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Agrégation.Inputs[Entrée d'agrégation 1].Columns[SupplierKey]"
+                          cachedDataType="i4"
+                          cachedName="SupplierKey"
+                          cachedSortKeyPosition="1"
+                          lineageId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierKey]" />
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Agrégation.Inputs[Entrée d'agrégation 1].Columns[SupplierName]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="100"
+                          cachedName="SupplierName"
+                          lineageId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierName]" />
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Agrégation.Inputs[Entrée d'agrégation 1].Columns[RegionName]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="100"
+                          cachedName="RegionName"
+                          lineageId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[RegionName]" />
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Agrégation.Inputs[Entrée d'agrégation 1].Columns[CountryName]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="100"
+                          cachedName="CountryName"
+                          lineageId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[CountryName]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1]"
+                      name="Sortie d'agrégation 1">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Spécifie le nombre approximatif de clés GROUP BY produites par l'agrégation. Basse indique 500 000 valeurs de clés, Moyenne indique 5 millions de valeurs de clés et Haute indique plus de 25 millions de valeurs de clés. Non spécifié indique qu'aucune valeur KeyScale n'est utilisée."
+                          name="KeyScale"
+                          typeConverter="KeyScaleType">0</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie le nombre exact de clés GROUP BY produites par l'agrégation. Si une valeur KeyScale est spécifiée, la valeur dans Keys est prioritaire."
+                          name="Keys" />
+                      </properties>
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[SupplierKey]"
+                          dataType="i4"
+                          lineageId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[SupplierKey]"
+                          name="SupplierKey">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Spécifie l'ID de la colonne d'entrée utilisé dans l'agrégation."
+                              name="AggregationColumnId">#{Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierKey]}</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie le type d'agrégation."
+                              name="AggregationType"
+                              typeConverter="AggregationType">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Indique si la colonne nécessite un traitement spécial, au cas où elle contiendrait des données dépassant la taille limite ou nécessiterait une précision au-delà du type de données float."
+                              name="IsBig">1</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie les options de comparaison de chaînes."
+                              name="AggregationComparisonFlags">0</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[Score]"
+                          dataType="r8"
+                          lineageId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[Score]"
+                          name="Score">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Spécifie l'ID de la colonne d'entrée utilisé dans l'agrégation."
+                              name="AggregationColumnId">#{Package\Load Dimensions\Load Supplier\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[DeliveryTime]}</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie le type d'agrégation."
+                              name="AggregationType"
+                              typeConverter="AggregationType">5</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Indique si la colonne nécessite un traitement spécial, au cas où elle contiendrait des données dépassant la taille limite ou nécessiterait une précision au-delà du type de données float."
+                              name="IsBig">1</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie les options de comparaison de chaînes."
+                              name="AggregationComparisonFlags">0</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[SupplierName]"
+                          codePage="1252"
+                          dataType="str"
+                          length="100"
+                          lineageId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[SupplierName]"
+                          name="SupplierName">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Spécifie l'ID de la colonne d'entrée utilisé dans l'agrégation."
+                              name="AggregationColumnId">#{Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierName]}</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie le type d'agrégation."
+                              name="AggregationType"
+                              typeConverter="AggregationType">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Indique si la colonne nécessite un traitement spécial, au cas où elle contiendrait des données dépassant la taille limite ou nécessiterait une précision au-delà du type de données float."
+                              name="IsBig">1</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie les options de comparaison de chaînes."
+                              name="AggregationComparisonFlags">0</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[RegionName]"
+                          codePage="1252"
+                          dataType="str"
+                          length="100"
+                          lineageId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[RegionName]"
+                          name="RegionName">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Spécifie l'ID de la colonne d'entrée utilisé dans l'agrégation."
+                              name="AggregationColumnId">#{Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[RegionName]}</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie le type d'agrégation."
+                              name="AggregationType"
+                              typeConverter="AggregationType">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Indique si la colonne nécessite un traitement spécial, au cas où elle contiendrait des données dépassant la taille limite ou nécessiterait une précision au-delà du type de données float."
+                              name="IsBig">1</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie les options de comparaison de chaînes."
+                              name="AggregationComparisonFlags">0</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[CountryName]"
+                          codePage="1252"
+                          dataType="str"
+                          length="100"
+                          lineageId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[CountryName]"
+                          name="CountryName">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Spécifie l'ID de la colonne d'entrée utilisé dans l'agrégation."
+                              name="AggregationColumnId">#{Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[CountryName]}</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie le type d'agrégation."
+                              name="AggregationType"
+                              typeConverter="AggregationType">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Indique si la colonne nécessite un traitement spécial, au cas où elle contiendrait des données dépassant la taille limite ou nécessiterait une précision au-delà du type de données float."
+                              name="IsBig">1</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie les options de comparaison de chaînes."
+                              name="AggregationComparisonFlags">0</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Load Dimensions\Load Supplier\Colonne dérivée"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Colonne dérivée;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
+                  description="Crée de nouvelles valeurs de colonne en appliquant des expressions aux colonnes d'entrée de transformation. Créez de nouvelles colonnes ou remplacez celles qui existent déjà. Par exemple, concaténez les valeurs de la colonne 'prénom' et de la colonne 'nom' pour créer une colonne 'nom complet'."
+                  name="Colonne dérivée"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+                      description="Entrée de la transformation de colonnes dérivées"
+                      name="Entrée de colonne dérivée">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Inputs[Entrée de colonne dérivée].Columns[receivedAt]"
+                          cachedDataType="wstr"
+                          cachedLength="10"
+                          cachedName="receivedAt"
+                          lineageId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[receivedAt]" />
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Inputs[Entrée de colonne dérivée].Columns[expectedDelivery]"
+                          cachedDataType="wstr"
+                          cachedLength="10"
+                          cachedName="expectedDelivery"
+                          lineageId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[expectedDelivery]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Outputs[Sortie de colonne dérivée]"
+                      description="Sortie par défaut de la transformation de colonnes dérivées"
+                      exclusionGroup="1"
+                      name="Sortie de colonne dérivée"
+                      synchronousInputId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[DeliveryTime]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Calcul"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[DeliveryTime]"
+                          name="DeliveryTime"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Expression de colonne dérivée"
+                              name="Expression">[DATEDIFF]("dd",(DT_DBTIMESTAMP)#{Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[expectedDelivery]},(DT_DBTIMESTAMP)#{Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[receivedAt]})</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Expression claire de colonne dérivée"
+                              expressionType="Notify"
+                              name="FriendlyExpression">DATEDIFF("dd",(DT_DBTIMESTAMP)expectedDelivery,(DT_DBTIMESTAMP)receivedAt)</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée]"
+                      description="Sortie d'erreur de la transformation de colonnes dérivées"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Sortie d'erreur de colonne dérivée"
+                      synchronousInputId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Load Dimensions\Load Supplier\Destination OLE DB"
                   componentClassID="Microsoft.OLEDBDestination"
                   contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
                   description="Destination OLE DB"
-                  name="Destination Supplier"
+                  name="Destination OLE DB"
                   usesDispositions="true"
                   version="4">
                   <properties>
@@ -2683,7 +3009,7 @@ where [refTable].[id] = ?</property>
                   </properties>
                   <connections>
                     <connection
-                      refId="Package\Load Dimensions\Load Supplier\Destination Supplier.Connections[OleDbConnection]"
+                      refId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Connections[OleDbConnection]"
                       connectionManagerID="Package.ConnectionManagers[bi.unamurcs.be.DW_Team_G.Team_G]"
                       connectionManagerRefId="Package.ConnectionManagers[bi.unamurcs.be.DW_Team_G.Team_G]"
                       description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
@@ -2691,63 +3017,73 @@ where [refTable].[id] = ?</property>
                   </connections>
                   <inputs>
                     <input
-                      refId="Package\Load Dimensions\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB]"
+                      refId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
                       errorOrTruncationOperation="Insérer"
                       errorRowDisposition="FailComponent"
                       hasSideEffects="true"
                       name="Entrée de destination OLE DB">
                       <inputColumns>
                         <inputColumn
-                          refId="Package\Load Dimensions\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].Columns[id]"
+                          refId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[SupplierKey]"
                           cachedDataType="i4"
-                          cachedName="id"
-                          externalMetadataColumnId="Package\Load Dimensions\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[Key]"
-                          lineageId="Package\Load Dimensions\Load Supplier\Source Supplier.Outputs[Sortie de source OLE DB].Columns[id]" />
+                          cachedName="SupplierKey"
+                          externalMetadataColumnId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierKey]"
+                          lineageId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[SupplierKey]" />
                         <inputColumn
-                          refId="Package\Load Dimensions\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].Columns[name]"
+                          refId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Score]"
+                          cachedDataType="r8"
+                          cachedName="Score"
+                          externalMetadataColumnId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Score]"
+                          lineageId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[Score]" />
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[SupplierName]"
                           cachedCodepage="1252"
                           cachedDataType="str"
                           cachedLength="100"
-                          cachedName="name"
-                          externalMetadataColumnId="Package\Load Dimensions\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[Name]"
-                          lineageId="Package\Load Dimensions\Load Supplier\Source Supplier.Outputs[Sortie de source OLE DB].Columns[name]" />
+                          cachedName="SupplierName"
+                          externalMetadataColumnId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierName]"
+                          lineageId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[SupplierName]" />
                         <inputColumn
-                          refId="Package\Load Dimensions\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].Columns[name1]"
+                          refId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[RegionName]"
                           cachedCodepage="1252"
                           cachedDataType="str"
                           cachedLength="100"
-                          cachedName="name"
-                          externalMetadataColumnId="Package\Load Dimensions\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[RegionName]"
-                          lineageId="Package\Load Dimensions\Load Supplier\Lookup Region.Outputs[Sortie de recherche avec correspondance].Columns[name]" />
+                          cachedName="RegionName"
+                          externalMetadataColumnId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[RegionName]"
+                          lineageId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[RegionName]" />
                         <inputColumn
-                          refId="Package\Load Dimensions\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].Columns[name2]"
+                          refId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[CountryName]"
                           cachedCodepage="1252"
                           cachedDataType="str"
                           cachedLength="100"
-                          cachedName="name"
-                          externalMetadataColumnId="Package\Load Dimensions\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[CountryName]"
-                          lineageId="Package\Load Dimensions\Load Supplier\Lookup Country.Outputs[Sortie de recherche avec correspondance].Columns[name]" />
+                          cachedName="CountryName"
+                          externalMetadataColumnId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[CountryName]"
+                          lineageId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[CountryName]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
                         <externalMetadataColumn
-                          refId="Package\Load Dimensions\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[Key]"
+                          refId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierKey]"
                           dataType="i4"
-                          name="Key" />
+                          name="SupplierKey" />
                         <externalMetadataColumn
-                          refId="Package\Load Dimensions\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[Name]"
+                          refId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Score]"
+                          dataType="r8"
+                          name="Score" />
+                        <externalMetadataColumn
+                          refId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierName]"
                           codePage="1252"
                           dataType="str"
                           length="100"
-                          name="Name" />
+                          name="SupplierName" />
                         <externalMetadataColumn
-                          refId="Package\Load Dimensions\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[RegionName]"
+                          refId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[RegionName]"
                           codePage="1252"
                           dataType="str"
                           length="100"
                           name="RegionName" />
                         <externalMetadataColumn
-                          refId="Package\Load Dimensions\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[CountryName]"
+                          refId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[CountryName]"
                           codePage="1252"
                           dataType="str"
                           length="100"
@@ -2757,24 +3093,211 @@ where [refTable].[id] = ?</property>
                   </inputs>
                   <outputs>
                     <output
-                      refId="Package\Load Dimensions\Load Supplier\Destination Supplier.Outputs[Sortie d'erreur de destination OLE DB]"
+                      refId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
                       exclusionGroup="1"
                       isErrorOut="true"
                       name="Sortie d'erreur de destination OLE DB"
-                      synchronousInputId="Package\Load Dimensions\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB]">
+                      synchronousInputId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\Load Dimensions\Load Supplier\Destination Supplier.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                          refId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
                           dataType="i4"
-                          lineageId="Package\Load Dimensions\Load Supplier\Destination Supplier.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                          lineageId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
                           name="ErrorCode"
                           specialFlags="1" />
                         <outputColumn
-                          refId="Package\Load Dimensions\Load Supplier\Destination Supplier.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                          refId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
                           dataType="i4"
-                          lineageId="Package\Load Dimensions\Load Supplier\Destination Supplier.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                          lineageId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Load Dimensions\Load Supplier\Jointure de fusion"
+                  componentClassID="Microsoft.MergeJoin"
+                  contactInfo="Jointure de fusion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+                  description="Combine deux flux de données triés en un seul à l'aide de la jointure FULL, LEFT ou INNER. Nous recommandons cette transformation lorsque les flux de données peuvent être triés au niveau de leurs sources."
+                  name="Jointure de fusion"
+                  version="1">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="Spécifie le type de jointure à effectuer."
+                      name="JoinType"
+                      typeConverter="JoinType">2</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Spécifie le nombre de colonnes dans la clé de tri."
+                      name="NumKeyColumns">1</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indique si les valeurs NULL sont traitées comme valeurs égales."
+                      name="TreatNullsAsEqual">true</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Indique le nombre maximal de mémoires tampons demandées par entrée avant blocage."
+                      name="MaxBuffersPerInput">5</property>
+                  </properties>
+                  <inputs>
+                    <input
+                      refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée gauche de jointure de fusion]"
+                      hasSideEffects="true"
+                      name="Entrée gauche de jointure de fusion">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée gauche de jointure de fusion].Columns[id]"
+                          cachedDataType="i4"
+                          cachedName="id"
+                          cachedSortKeyPosition="1"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[id]" />
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée gauche de jointure de fusion].Columns[Source Supplier.name]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="100"
+                          cachedName="Source Supplier.name"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[Source Supplier.name]" />
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée gauche de jointure de fusion].Columns[Lookup Region.name]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="100"
+                          cachedName="Lookup Region.name"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[Lookup Region.name]" />
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée gauche de jointure de fusion].Columns[Lookup Country.name]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="100"
+                          cachedName="Lookup Country.name"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[Lookup Country.name]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                    <input
+                      refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion]"
+                      hasSideEffects="true"
+                      name="Entrée droite de jointure de fusion">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion].Columns[supplierId]"
+                          cachedDataType="i4"
+                          cachedName="supplierId"
+                          cachedSortKeyPosition="1"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[supplierId]" />
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion].Columns[receivedAt]"
+                          cachedDataType="wstr"
+                          cachedLength="10"
+                          cachedName="receivedAt"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[receivedAt]" />
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion].Columns[expectedDelivery]"
+                          cachedDataType="wstr"
+                          cachedLength="10"
+                          cachedName="expectedDelivery"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[expectedDelivery]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion]"
+                      isSorted="true"
+                      name="Sortie de jointure de fusion">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierName]"
+                          codePage="1252"
+                          dataType="str"
+                          length="100"
+                          lineageId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierName]"
+                          name="SupplierName">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Colonne d'entrée associée à cette colonne de sortie"
+                              name="InputColumnID">#{Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée gauche de jointure de fusion].Columns[Source Supplier.name]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierKey]"
+                          dataType="i4"
+                          lineageId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierKey]"
+                          name="SupplierKey"
+                          sortKeyPosition="1">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Colonne d'entrée associée à cette colonne de sortie"
+                              name="InputColumnID">#{Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée gauche de jointure de fusion].Columns[id]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[RegionName]"
+                          codePage="1252"
+                          dataType="str"
+                          length="100"
+                          lineageId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[RegionName]"
+                          name="RegionName">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Colonne d'entrée associée à cette colonne de sortie"
+                              name="InputColumnID">#{Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée gauche de jointure de fusion].Columns[Lookup Region.name]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[CountryName]"
+                          codePage="1252"
+                          dataType="str"
+                          length="100"
+                          lineageId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[CountryName]"
+                          name="CountryName">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Colonne d'entrée associée à cette colonne de sortie"
+                              name="InputColumnID">#{Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée gauche de jointure de fusion].Columns[Lookup Country.name]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[receivedAt]"
+                          dataType="wstr"
+                          length="10"
+                          lineageId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[receivedAt]"
+                          name="receivedAt">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Colonne d'entrée associée à cette colonne de sortie"
+                              name="InputColumnID">#{Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion].Columns[receivedAt]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[expectedDelivery]"
+                          dataType="wstr"
+                          length="10"
+                          lineageId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[expectedDelivery]"
+                          name="expectedDelivery">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Colonne d'entrée associée à cette colonne de sortie"
+                              name="InputColumnID">#{Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion].Columns[expectedDelivery]}</property>
+                          </properties>
+                        </outputColumn>
                       </outputColumns>
                       <externalMetadataColumns />
                     </output>
@@ -3264,23 +3787,569 @@ where [refTable].[id] = ?</property>
                     </output>
                   </outputs>
                 </component>
+                <component
+                  refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder"
+                  componentClassID="Microsoft.OLEDBSource"
+                  contactInfo="Source OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;7"
+                  description="Source OLE DB"
+                  name="Source SupplierOrder"
+                  usesDispositions="true"
+                  version="7">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                      name="OpenRowset">[dbo].[SupplierOrder]</property>
+                    <property
+                      dataType="System.String"
+                      description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="Commande SQL à exécuter."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.String"
+                      description="Variable contenant la commande SQL à exécuter."
+                      name="SqlCommandVariable"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Spécifie le mode utilisé pour accéder à la base de données."
+                      name="AccessMode"
+                      typeConverter="AccessMode">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Mappages entre les paramètres de la commande SQL et les variables."
+                      name="ParameterMapping"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[bi.unamurcs.be.RestoChain-ERP-DB.readonly]"
+                      connectionManagerRefId="Package.ConnectionManagers[bi.unamurcs.be.RestoChain-ERP-DB.readonly]"
+                      description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                      name="OleDbConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB]"
+                      name="Sortie de source OLE DB">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[expectedDelivery]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[expectedDelivery]"
+                          length="10"
+                          lineageId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[expectedDelivery]"
+                          name="expectedDelivery"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[supplierId]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[supplierId]"
+                          lineageId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[supplierId]"
+                          name="supplierId"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[receivedAt]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[receivedAt]"
+                          length="10"
+                          lineageId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[receivedAt]"
+                          name="receivedAt"
+                          truncationRowDisposition="FailComponent" />
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[id]"
+                          dataType="i4"
+                          name="id" />
+                        <externalMetadataColumn
+                          refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[placedAt]"
+                          dataType="wstr"
+                          length="10"
+                          name="placedAt" />
+                        <externalMetadataColumn
+                          refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[expectedDelivery]"
+                          dataType="wstr"
+                          length="10"
+                          name="expectedDelivery" />
+                        <externalMetadataColumn
+                          refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[restaurantId]"
+                          dataType="i4"
+                          name="restaurantId" />
+                        <externalMetadataColumn
+                          refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[supplierId]"
+                          dataType="i4"
+                          name="supplierId" />
+                        <externalMetadataColumn
+                          refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[receivedAt]"
+                          dataType="wstr"
+                          length="10"
+                          name="receivedAt" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB]"
+                      isErrorOut="true"
+                      name="Sortie d'erreur de source OLE DB">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[expectedDelivery]"
+                          dataType="wstr"
+                          length="10"
+                          lineageId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[expectedDelivery]"
+                          name="expectedDelivery" />
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[supplierId]"
+                          dataType="i4"
+                          lineageId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[supplierId]"
+                          name="supplierId" />
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[receivedAt]"
+                          dataType="wstr"
+                          length="10"
+                          lineageId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[receivedAt]"
+                          name="receivedAt" />
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Load Dimensions\Load Supplier\Trier"
+                  componentClassID="Microsoft.Sort"
+                  contactInfo="Trier;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+                  description="Trie les données d'entrée en ordre croissant ou décroissant lorsque le tri ne peut pas être effectué à la source. Par exemple, triez les données de vente par 'id de client' avant leur enregistrement dans un fichier plat et leur diffusion dans un autre service. Remarque : nous ne recommandons pas cette transformation dans le cas de flux de données volumineux."
+                  name="Trier"
+                  version="1">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indique si la transformation de tri supprime les lignes comportant des valeurs de tri en double."
+                      name="EliminateDuplicates">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Spécifie le nombre maximal de threads à utiliser pour le tri."
+                      expressionType="Notify"
+                      name="MaximumThreads">-1</property>
+                  </properties>
+                  <inputs>
+                    <input
+                      refId="Package\Load Dimensions\Load Supplier\Trier.Inputs[Entrée de tri]"
+                      name="Entrée de tri">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier.Inputs[Entrée de tri].Columns[name]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="100"
+                          cachedName="name"
+                          lineageId="Package\Load Dimensions\Load Supplier\Source Supplier.Outputs[Sortie de source OLE DB].Columns[name]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie les options de comparaison pour les données caractères."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie l'ordre de tri de la colonne."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier.Inputs[Entrée de tri].Columns[regionId]"
+                          cachedDataType="i4"
+                          cachedName="regionId"
+                          lineageId="Package\Load Dimensions\Load Supplier\Source Supplier.Outputs[Sortie de source OLE DB].Columns[regionId]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie les options de comparaison pour les données caractères."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie l'ordre de tri de la colonne."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier.Inputs[Entrée de tri].Columns[id]"
+                          cachedDataType="i4"
+                          cachedName="id"
+                          lineageId="Package\Load Dimensions\Load Supplier\Source Supplier.Outputs[Sortie de source OLE DB].Columns[id]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie les options de comparaison pour les données caractères."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie l'ordre de tri de la colonne."
+                              name="NewSortKeyPosition">1</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier.Inputs[Entrée de tri].Columns[name1]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="100"
+                          cachedName="name"
+                          lineageId="Package\Load Dimensions\Load Supplier\Lookup Region.Outputs[Sortie de recherche avec correspondance].Columns[name]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie les options de comparaison pour les données caractères."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie l'ordre de tri de la colonne."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier.Inputs[Entrée de tri].Columns[countryId]"
+                          cachedDataType="i4"
+                          cachedName="countryId"
+                          lineageId="Package\Load Dimensions\Load Supplier\Lookup Region.Outputs[Sortie de recherche avec correspondance].Columns[countryId]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie les options de comparaison pour les données caractères."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie l'ordre de tri de la colonne."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier.Inputs[Entrée de tri].Columns[name2]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="100"
+                          cachedName="name"
+                          lineageId="Package\Load Dimensions\Load Supplier\Lookup Country.Outputs[Sortie de recherche avec correspondance].Columns[name]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie les options de comparaison pour les données caractères."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie l'ordre de tri de la colonne."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri]"
+                      isSorted="true"
+                      name="Sortie de tri">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[Source Supplier.name]"
+                          codePage="1252"
+                          dataType="str"
+                          length="100"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[Source Supplier.name]"
+                          name="Source Supplier.name">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Spécifie l'identificateur de traçabilité de la colonne d'entrée associé à cette colonne de sortie."
+                              name="SortColumnId">#{Package\Load Dimensions\Load Supplier\Source Supplier.Outputs[Sortie de source OLE DB].Columns[name]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[regionId]"
+                          dataType="i4"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[regionId]"
+                          name="regionId">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Spécifie l'identificateur de traçabilité de la colonne d'entrée associé à cette colonne de sortie."
+                              name="SortColumnId">#{Package\Load Dimensions\Load Supplier\Source Supplier.Outputs[Sortie de source OLE DB].Columns[regionId]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[id]"
+                          dataType="i4"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[id]"
+                          name="id"
+                          sortKeyPosition="1">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Spécifie l'identificateur de traçabilité de la colonne d'entrée associé à cette colonne de sortie."
+                              name="SortColumnId">#{Package\Load Dimensions\Load Supplier\Source Supplier.Outputs[Sortie de source OLE DB].Columns[id]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[Lookup Region.name]"
+                          codePage="1252"
+                          dataType="str"
+                          length="100"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[Lookup Region.name]"
+                          name="Lookup Region.name">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Spécifie l'identificateur de traçabilité de la colonne d'entrée associé à cette colonne de sortie."
+                              name="SortColumnId">#{Package\Load Dimensions\Load Supplier\Lookup Region.Outputs[Sortie de recherche avec correspondance].Columns[name]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[countryId]"
+                          dataType="i4"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[countryId]"
+                          name="countryId">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Spécifie l'identificateur de traçabilité de la colonne d'entrée associé à cette colonne de sortie."
+                              name="SortColumnId">#{Package\Load Dimensions\Load Supplier\Lookup Region.Outputs[Sortie de recherche avec correspondance].Columns[countryId]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[Lookup Country.name]"
+                          codePage="1252"
+                          dataType="str"
+                          length="100"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri].Columns[Lookup Country.name]"
+                          name="Lookup Country.name">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Spécifie l'identificateur de traçabilité de la colonne d'entrée associé à cette colonne de sortie."
+                              name="SortColumnId">#{Package\Load Dimensions\Load Supplier\Lookup Country.Outputs[Sortie de recherche avec correspondance].Columns[name]}</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Load Dimensions\Load Supplier\Trier 1"
+                  componentClassID="Microsoft.Sort"
+                  contactInfo="Trier;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+                  description="Trie les données d'entrée en ordre croissant ou décroissant lorsque le tri ne peut pas être effectué à la source. Par exemple, triez les données de vente par 'id de client' avant leur enregistrement dans un fichier plat et leur diffusion dans un autre service. Remarque : nous ne recommandons pas cette transformation dans le cas de flux de données volumineux."
+                  name="Trier 1"
+                  version="1">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indique si la transformation de tri supprime les lignes comportant des valeurs de tri en double."
+                      name="EliminateDuplicates">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Spécifie le nombre maximal de threads à utiliser pour le tri."
+                      expressionType="Notify"
+                      name="MaximumThreads">-1</property>
+                  </properties>
+                  <inputs>
+                    <input
+                      refId="Package\Load Dimensions\Load Supplier\Trier 1.Inputs[Entrée de tri]"
+                      name="Entrée de tri">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier 1.Inputs[Entrée de tri].Columns[expectedDelivery]"
+                          cachedDataType="wstr"
+                          cachedLength="10"
+                          cachedName="expectedDelivery"
+                          lineageId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[expectedDelivery]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie les options de comparaison pour les données caractères."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie l'ordre de tri de la colonne."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier 1.Inputs[Entrée de tri].Columns[supplierId]"
+                          cachedDataType="i4"
+                          cachedName="supplierId"
+                          lineageId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[supplierId]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie les options de comparaison pour les données caractères."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie l'ordre de tri de la colonne."
+                              name="NewSortKeyPosition">1</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier 1.Inputs[Entrée de tri].Columns[receivedAt]"
+                          cachedDataType="wstr"
+                          cachedLength="10"
+                          cachedName="receivedAt"
+                          lineageId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[receivedAt]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie les options de comparaison pour les données caractères."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie l'ordre de tri de la colonne."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Load Dimensions\Load Supplier\Trier 1.Outputs[Sortie de tri]"
+                      isSorted="true"
+                      name="Sortie de tri">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[expectedDelivery]"
+                          dataType="wstr"
+                          length="10"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[expectedDelivery]"
+                          name="expectedDelivery">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Spécifie l'identificateur de traçabilité de la colonne d'entrée associé à cette colonne de sortie."
+                              name="SortColumnId">#{Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[expectedDelivery]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[supplierId]"
+                          dataType="i4"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[supplierId]"
+                          name="supplierId"
+                          sortKeyPosition="1">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Spécifie l'identificateur de traçabilité de la colonne d'entrée associé à cette colonne de sortie."
+                              name="SortColumnId">#{Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[supplierId]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Load Dimensions\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[receivedAt]"
+                          dataType="wstr"
+                          length="10"
+                          lineageId="Package\Load Dimensions\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[receivedAt]"
+                          name="receivedAt">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Spécifie l'identificateur de traçabilité de la colonne d'entrée associé à cette colonne de sortie."
+                              name="SortColumnId">#{Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[receivedAt]}</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
               </components>
               <paths>
                 <path
-                  refId="Package\Load Dimensions\Load Supplier.Paths[Sortie de recherche avec correspondance]"
-                  endId="Package\Load Dimensions\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB]"
-                  name="Sortie de recherche avec correspondance"
-                  startId="Package\Load Dimensions\Load Supplier\Lookup Country.Outputs[Sortie de recherche avec correspondance]" />
+                  refId="Package\Load Dimensions\Load Supplier.Paths[Sortie d'agrégation 1]"
+                  endId="Package\Load Dimensions\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+                  name="Sortie d'agrégation 1"
+                  startId="Package\Load Dimensions\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1]" />
                 <path
-                  refId="Package\Load Dimensions\Load Supplier.Paths[Sortie de recherche avec correspondance1]"
+                  refId="Package\Load Dimensions\Load Supplier.Paths[Sortie de colonne dérivée]"
+                  endId="Package\Load Dimensions\Load Supplier\Agrégation.Inputs[Entrée d'agrégation 1]"
+                  name="Sortie de colonne dérivée"
+                  startId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Outputs[Sortie de colonne dérivée]" />
+                <path
+                  refId="Package\Load Dimensions\Load Supplier.Paths[Sortie de jointure de fusion]"
+                  endId="Package\Load Dimensions\Load Supplier\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+                  name="Sortie de jointure de fusion"
+                  startId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion]" />
+                <path
+                  refId="Package\Load Dimensions\Load Supplier.Paths[Sortie de recherche avec correspondance]"
                   endId="Package\Load Dimensions\Load Supplier\Lookup Country.Inputs[Entrée de recherche]"
                   name="Sortie de recherche avec correspondance"
                   startId="Package\Load Dimensions\Load Supplier\Lookup Region.Outputs[Sortie de recherche avec correspondance]" />
+                <path
+                  refId="Package\Load Dimensions\Load Supplier.Paths[Sortie de recherche avec correspondance1]"
+                  endId="Package\Load Dimensions\Load Supplier\Trier.Inputs[Entrée de tri]"
+                  name="Sortie de recherche avec correspondance"
+                  startId="Package\Load Dimensions\Load Supplier\Lookup Country.Outputs[Sortie de recherche avec correspondance]" />
                 <path
                   refId="Package\Load Dimensions\Load Supplier.Paths[Sortie de source OLE DB]"
                   endId="Package\Load Dimensions\Load Supplier\Lookup Region.Inputs[Entrée de recherche]"
                   name="Sortie de source OLE DB"
                   startId="Package\Load Dimensions\Load Supplier\Source Supplier.Outputs[Sortie de source OLE DB]" />
+                <path
+                  refId="Package\Load Dimensions\Load Supplier.Paths[Sortie de source OLE DB1]"
+                  endId="Package\Load Dimensions\Load Supplier\Trier 1.Inputs[Entrée de tri]"
+                  name="Sortie de source OLE DB"
+                  startId="Package\Load Dimensions\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB]" />
+                <path
+                  refId="Package\Load Dimensions\Load Supplier.Paths[Sortie de tri]"
+                  endId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée gauche de jointure de fusion]"
+                  name="Sortie de tri"
+                  startId="Package\Load Dimensions\Load Supplier\Trier.Outputs[Sortie de tri]" />
+                <path
+                  refId="Package\Load Dimensions\Load Supplier.Paths[Sortie de tri1]"
+                  endId="Package\Load Dimensions\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion]"
+                  name="Sortie de tri"
+                  startId="Package\Load Dimensions\Load Supplier\Trier 1.Outputs[Sortie de tri]" />
               </paths>
             </pipeline>
           </DTS:ObjectData>
@@ -6565,33 +7634,33 @@ where [refTable].[id] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="127.2,41.6"
-          Id="Package\Load Dimensions\Load Time"
-          TopLeft="28.0416604661282,332.766669762664" />
+          Size="149.6,41.6"
+          Id="Package\Load Dimensions\Load Customer"
+          TopLeft="21.1666607393159,113.500001353423" />
         <NodeLayout
           Size="176.8,41.6"
           Id="Package\Load Dimensions\Load DeliveryService"
           TopLeft="13.8749943623945,279.466669339074" />
         <NodeLayout
           Size="150.4,41.6"
-          Id="Package\Load Dimensions\Load MenuItem"
-          TopLeft="20.7499940892062,219.450002195438" />
-        <NodeLayout
-          Size="150.4,41.6"
           Id="Package\Load Dimensions\Load Ingredient"
           TopLeft="20.9583274142614,164.416668424739" />
         <NodeLayout
-          Size="149.6,41.6"
-          Id="Package\Load Dimensions\Load Customer"
-          TopLeft="21.1666607393159,113.500001353423" />
+          Size="150.4,41.6"
+          Id="Package\Load Dimensions\Load MenuItem"
+          TopLeft="20.7499940892062,219.450002195438" />
+        <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\Load Dimensions\Load Restaurant"
+          TopLeft="18.4583275136022,8.85000052173934" />
         <NodeLayout
           Size="142.4,41.6"
           Id="Package\Load Dimensions\Load Supplier"
           TopLeft="22.6249940147007,59.5500009246665" />
         <NodeLayout
-          Size="155.2,41.6"
-          Id="Package\Load Dimensions\Load Restaurant"
-          TopLeft="18.4583275136022,8.85000052173934" />
+          Size="127.2,41.6"
+          Id="Package\Load Dimensions\Load Time"
+          TopLeft="28.0416604661282,332.766669762664" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
@@ -6600,10 +7669,6 @@ where [refTable].[id] = ?</property>
           Id="Package\Load Dimensions"
           TopLeft="128.333328233825,45.0666670248243" />
         <NodeLayout
-          Size="139.2,41.6"
-          Id="Package\Load Facts\Load Wastes"
-          TopLeft="27.4666409704431,2.46666766537565" />
-        <NodeLayout
           Size="130.4,41.6"
           Id="Package\Load Facts\Load Sales"
           TopLeft="34.1333073722003,54.4666680786346" />
@@ -6611,6 +7676,10 @@ where [refTable].[id] = ?</property>
           Size="188.8,41.6"
           Id="Package\Load Facts\Load SupplierDeliveries"
           TopLeft="10.7999749660505,103.86666847123" />
+        <NodeLayout
+          Size="139.2,41.6"
+          Id="Package\Load Facts\Load Wastes"
+          TopLeft="27.4666409704431,2.46666766537565" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
@@ -6647,7 +7716,7 @@ where [refTable].[id] = ?</property>
     design-time-name="Package\Load Dimensions\Load Customer">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="159.2,41.6"
           Id="Package\Load Dimensions\Load Customer\Source Customer"
@@ -6675,9 +7744,7 @@ where [refTable].[id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -6713,7 +7780,7 @@ where [refTable].[id] = ?</property>
     design-time-name="Package\Load Dimensions\Load DeliveryService">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="186.4,41.6"
           Id="Package\Load Dimensions\Load DeliveryService\Source DeliveryService"
@@ -6741,9 +7808,7 @@ where [refTable].[id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -6863,9 +7928,7 @@ where [refTable].[id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -6979,9 +8042,7 @@ where [refTable].[id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7230,7 +8291,7 @@ where [refTable].[id] = ?</property>
     design-time-name="Package\Load Dimensions\Load Supplier">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="152,41.6"
           Id="Package\Load Dimensions\Load Supplier\Lookup Country"
@@ -7240,37 +8301,9 @@ where [refTable].[id] = ?</property>
           Id="Package\Load Dimensions\Load Supplier\Lookup Region"
           TopLeft="60.666666203076,163.266667479408" />
         <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Load Dimensions\Load Supplier\Destination Supplier"
-          TopLeft="54.592592489573,403.133335599368" />
-        <NodeLayout
           Size="152,41.6"
           Id="Package\Load Dimensions\Load Supplier\Source Supplier"
           TopLeft="60,60" />
-        <EdgeLayout
-          Id="Package\Load Dimensions\Load Supplier.Paths[Sortie de recherche avec correspondance]"
-          TopLeft="140.837036757411,324.60000175635">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,78.533333843018"
-              Start="0,0"
-              End="0,71.033333843018">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,71.033333843018" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-91.67701171875,29.711979421509,183.3540234375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Load Dimensions\Load Supplier.Paths[Sortie de source OLE DB]"
           TopLeft="135.333333101538,101.6">
@@ -7294,7 +8327,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load Dimensions\Load Supplier.Paths[Sortie de recherche avec correspondance1]"
+          Id="Package\Load Dimensions\Load Supplier.Paths[Sortie de recherche avec correspondance]"
           TopLeft="138.074073614163,204.866667479408">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7315,6 +8348,226 @@ where [refTable].[id] = ?</property>
             <mssgm:EdgeLabel
               BoundingBox="-91.67701171875,29.511979638471,183.3540234375,11.609375"
               RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="160,41.6"
+          Id="Package\Load Dimensions\Load Supplier\Jointure de fusion"
+          TopLeft="286.666655275557,670.000004752477" />
+        <NodeLayout
+          Size="179.2,41.6"
+          Id="Package\Load Dimensions\Load Supplier\Source SupplierOrder"
+          TopLeft="457.499981820584,423.533334524896" />
+        <NodeLayout
+          Size="100,41.6"
+          Id="Package\Load Dimensions\Load Supplier\Trier"
+          TopLeft="184.166659348541,532.73333539274" />
+        <NodeLayout
+          Size="108,41.6"
+          Id="Package\Load Dimensions\Load Supplier\Trier 1"
+          TopLeft="494.166647030249,543.133335475392" />
+        <EdgeLayout
+          Id="Package\Load Dimensions\Load Supplier.Paths[Sortie de recherche avec correspondance1]"
+          TopLeft="141.481481025249,324.60000175635">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="92.6851783232921,208.13333363639"
+              Start="0,0"
+              End="92.6851783232921,200.63333363639">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,100.066666818195" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,100.066666818195"
+                    Point2="0,104.066666818195"
+                    Point3="4,104.066666818195" />
+                  <mssgle:LineSegment
+                    End="88.6851783232921,104.066666818195" />
+                  <mssgle:CubicBezierSegment
+                    Point1="88.6851783232921,104.066666818195"
+                    Point2="92.6851783232921,104.066666818195"
+                    Point3="92.6851783232921,108.066666818195" />
+                  <mssgle:LineSegment
+                    End="92.6851783232921,200.63333363639" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-45.334422557104,109.066666818195,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Dimensions\Load Supplier.Paths[Sortie de source OLE DB1]"
+          TopLeft="547.633314425416,465.133334524896">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,78.0000009504955"
+              Start="0,0"
+              End="0,70.5000009504955">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,70.5000009504955" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Dimensions\Load Supplier.Paths[Sortie de tri]"
+          TopLeft="234.166659348541,574.33333539274">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="132.499995927016,95.6666693597369"
+              Start="0,0"
+              End="132.499995927016,88.1666693597369">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,43.8333346798685" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,43.8333346798685"
+                    Point2="0,47.8333346798685"
+                    Point3="4,47.8333346798685" />
+                  <mssgle:LineSegment
+                    End="128.499995927016,47.8333346798685" />
+                  <mssgle:CubicBezierSegment
+                    Point1="128.499995927016,47.8333346798685"
+                    Point2="132.499995927016,47.8333346798685"
+                    Point3="132.499995927016,51.8333346798685" />
+                  <mssgle:LineSegment
+                    End="132.499995927016,88.1666693597369" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Dimensions\Load Supplier.Paths[Sortie de tri1]"
+          TopLeft="548.166647030249,584.733335475392">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-156.166658421358,85.2666692770852"
+              Start="0,0"
+              End="-156.166658421358,77.7666692770852">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46.6534668972783" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,46.6534668972783"
+                    Point2="0,50.6534668972783"
+                    Point3="-4,50.6534668972783" />
+                  <mssgle:LineSegment
+                    End="-152.166658421358,50.6534668972783" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-152.166658421358,50.6534668972783"
+                    Point2="-156.166658421358,50.6534668972783"
+                    Point3="-156.166658421358,54.6534668972783" />
+                  <mssgle:LineSegment
+                    End="-156.166658421358,77.7666692770852" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="154.4,41.6"
+          Id="Package\Load Dimensions\Load Supplier\Colonne dérivée"
+          TopLeft="291.666655076875,779.133337376383" />
+        <EdgeLayout
+          Id="Package\Load Dimensions\Load Supplier.Paths[Sortie de jointure de fusion]"
+          TopLeft="367.766655176216,711.600004752477">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,67.5333326239057"
+              Start="0,0"
+              End="0,60.0333326239057">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,60.0333326239057" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="128.8,41.6"
+          Id="Package\Load Dimensions\Load Supplier\Agrégation"
+          TopLeft="304.16665458017,867.066670537525" />
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Load Dimensions\Load Supplier\Destination OLE DB"
+          TopLeft="288.333321875996,948.533337190416" />
+        <EdgeLayout
+          Id="Package\Load Dimensions\Load Supplier.Paths[Sortie d'agrégation 1]"
+          TopLeft="371.249988228083,908.666670537525">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,39.8666666528915"
+              Start="0,0"
+              End="0,32.3666666528915">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.3666666528915" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Dimensions\Load Supplier.Paths[Sortie de colonne dérivée]"
+          TopLeft="368.716654828522,820.733337376383">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46.3333331611422"
+              Start="0,0"
+              End="0,38.8333331611422">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.8333331611422" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7363,19 +8616,6 @@ where [refTable].[id] = ?</property>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load Dimensions\Load Supplier\Destination Supplier">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -7691,269 +8931,141 @@ where [refTable].[id] = ?</property>
     design-time-name="Package\Load Facts\Load Wastes">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="140,41.6"
-          Id="Package\Load Facts\Load Wastes\Source Excel"
-          TopLeft="79,14" />
-        <NodeLayout
-          Size="154.4,41.6"
-          Id="Package\Load Facts\Load Wastes\Colonne dérivée"
-          TopLeft="77,96" />
-        <EdgeLayout
-          Id="Package\Load Facts\Load Wastes.Paths[Sortie de source Excel]"
-          TopLeft="151.6,55.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,40.4"
-              Start="0,0"
-              End="0,32.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,32.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="164.8,41.6"
-          Id="Package\Load Facts\Load Wastes\Source Restaurant"
-          TopLeft="321,37" />
-        <NodeLayout
-          Size="100,41.6"
-          Id="Package\Load Facts\Load Wastes\Trier"
-          TopLeft="107,206" />
+          Size="168.8,41.6"
+          Id="Package\Load Facts\Load Wastes\Jointure de fusion 1"
+          TopLeft="410,592.2" />
         <NodeLayout
           Size="108,41.6"
-          Id="Package\Load Facts\Load Wastes\Trier 1"
-          TopLeft="347,198" />
-        <EdgeLayout
-          Id="Package\Load Facts\Load Wastes.Paths[Sortie de source OLE DB]"
-          TopLeft="402.2,78.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,119.4"
-              Start="0,0"
-              End="0,111.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,111.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load Facts\Load Wastes.Paths[Sortie de colonne dérivée]"
-          TopLeft="155.6,137.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,68.4"
-              Start="0,0"
-              End="0,60.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,60.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="160,41.6"
-          Id="Package\Load Facts\Load Wastes\Jointure de fusion"
-          TopLeft="209,361" />
-        <EdgeLayout
-          Id="Package\Load Facts\Load Wastes.Paths[Sortie de tri]"
-          TopLeft="157,247.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="106.666666666667,113.4"
-              Start="0,0"
-              End="106.666666666667,105.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,63.3663366336634" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,63.3663366336634"
-                    Point2="0,67.3663366336634"
-                    Point3="4,67.3663366336634" />
-                  <mssgle:LineSegment
-                    End="102.666666666667,67.3663366336634" />
-                  <mssgle:CubicBezierSegment
-                    Point1="102.666666666667,67.3663366336634"
-                    Point2="106.666666666667,67.3663366336634"
-                    Point3="106.666666666667,71.3663366336634" />
-                  <mssgle:LineSegment
-                    End="106.666666666667,105.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load Facts\Load Wastes.Paths[Sortie de tri1]"
-          TopLeft="401,239.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-86.6666666666667,121.4"
-              Start="0,0"
-              End="-86.6666666666667,113.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,68.1188118811881" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,68.1188118811881"
-                    Point2="0,72.1188118811881"
-                    Point3="-4,72.1188118811881" />
-                  <mssgle:LineSegment
-                    End="-82.6666666666667,72.1188118811881" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-82.6666666666667,72.1188118811881"
-                    Point2="-86.6666666666667,72.1188118811881"
-                    Point3="-86.6666666666667,76.1188118811881" />
-                  <mssgle:LineSegment
-                    End="-86.6666666666667,113.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Id="Package\Load Facts\Load Wastes\Trier 2"
+          TopLeft="262.5,477.5" />
         <NodeLayout
           Size="160.8,41.6"
           Id="Package\Load Facts\Load Wastes\Source Ingredient"
           TopLeft="577,365" />
         <NodeLayout
           Size="108,41.6"
-          Id="Package\Load Facts\Load Wastes\Trier 2"
-          TopLeft="262.5,477.5" />
+          Id="Package\Load Facts\Load Wastes\Trier 6"
+          TopLeft="446,779.2" />
+        <NodeLayout
+          Size="168,41.6"
+          Id="Package\Load Facts\Load Wastes\Destination Wastes"
+          TopLeft="839,874" />
+        <NodeLayout
+          Size="100,41.6"
+          Id="Package\Load Facts\Load Wastes\Trier"
+          TopLeft="107,206" />
         <NodeLayout
           Size="108,41.6"
           Id="Package\Load Facts\Load Wastes\Trier 3"
           TopLeft="606,475.4" />
-        <EdgeLayout
-          Id="Package\Load Facts\Load Wastes.Paths[Sortie de source OLE DB1]"
-          TopLeft="658.7,406.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,68.8000000000001"
-              Start="0,0"
-              End="0,61.3000000000001">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,61.3000000000001" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load Facts\Load Wastes.Paths[Sortie de jointure de fusion]"
-          TopLeft="289,402.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="27.4999999999999,74.8999999999999"
-              Start="0,0"
-              End="27.4999999999999,67.3999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,33.45" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,33.45"
-                    Point2="0,37.45"
-                    Point3="4,37.45" />
-                  <mssgle:LineSegment
-                    End="23.4999999999999,37.45" />
-                  <mssgle:CubicBezierSegment
-                    Point1="23.4999999999999,37.45"
-                    Point2="27.4999999999999,37.45"
-                    Point3="27.4999999999999,41.45" />
-                  <mssgle:LineSegment
-                    End="27.4999999999999,67.3999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <NodeLayout
           Size="168.8,41.6"
-          Id="Package\Load Facts\Load Wastes\Jointure de fusion 1"
-          TopLeft="410,592.2" />
+          Id="Package\Load Facts\Load Wastes\Jointure de fusion 2"
+          TopLeft="537,871.4" />
+        <NodeLayout
+          Size="108,41.6"
+          Id="Package\Load Facts\Load Wastes\Trier 1"
+          TopLeft="347,198" />
+        <NodeLayout
+          Size="164.8,41.6"
+          Id="Package\Load Facts\Load Wastes\Source Restaurant"
+          TopLeft="321,37" />
+        <NodeLayout
+          Size="188,41.6"
+          Id="Package\Load Facts\Load Wastes\Conversion de données"
+          TopLeft="401,690.2" />
+        <NodeLayout
+          Size="160,41.6"
+          Id="Package\Load Facts\Load Wastes\Jointure de fusion"
+          TopLeft="209,361" />
+        <NodeLayout
+          Size="108,41.6"
+          Id="Package\Load Facts\Load Wastes\Trier 5"
+          TopLeft="720,779" />
+        <NodeLayout
+          Size="137.6,41.6"
+          Id="Package\Load Facts\Load Wastes\Source Time"
+          TopLeft="703,649.8" />
+        <NodeLayout
+          Size="154.4,41.6"
+          Id="Package\Load Facts\Load Wastes\Colonne dérivée"
+          TopLeft="77,96" />
+        <NodeLayout
+          Size="140,41.6"
+          Id="Package\Load Facts\Load Wastes\Source Excel"
+          TopLeft="79,14" />
         <EdgeLayout
-          Id="Package\Load Facts\Load Wastes.Paths[Sortie de tri2]"
-          TopLeft="316.5,519.1">
+          Id="Package\Load Facts\Load Wastes.Paths[Sortie de tri5]"
+          TopLeft="774,820.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="177.9,73.1000000000001"
+              EndConnector="-125.8,50.8000000000002"
               Start="0,0"
-              End="177.9,65.6000000000001">
+              End="-125.8,43.3000000000002">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,32.5500000000001" />
+                    End="0,26.1938028169015" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,32.5500000000001"
-                    Point2="0,36.5500000000001"
-                    Point3="4,36.5500000000001" />
+                    Point1="0,26.1938028169015"
+                    Point2="0,30.1938028169015"
+                    Point3="-4,30.1938028169015" />
                   <mssgle:LineSegment
-                    End="173.9,36.5500000000001" />
+                    End="-121.8,30.1938028169015" />
                   <mssgle:CubicBezierSegment
-                    Point1="173.9,36.5500000000001"
-                    Point2="177.9,36.5500000000001"
-                    Point3="177.9,40.5500000000001" />
+                    Point1="-121.8,30.1938028169015"
+                    Point2="-125.8,30.1938028169015"
+                    Point3="-125.8,34.1938028169015" />
                   <mssgle:LineSegment
-                    End="177.9,65.6000000000001" />
+                    End="-125.8,43.3000000000002" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Facts\Load Wastes.Paths[Sortie de tri4]"
+          TopLeft="500,820.8">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="121.4,50.5999999999998"
+              Start="0,0"
+              End="121.4,43.0999999999998">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.2999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.2999999999999"
+                    Point2="0,25.2999999999999"
+                    Point3="4,25.2999999999999" />
+                  <mssgle:LineSegment
+                    End="117.4,25.2999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="117.4,25.2999999999999"
+                    Point2="121.4,25.2999999999999"
+                    Point3="121.4,29.2999999999999" />
+                  <mssgle:LineSegment
+                    End="121.4,43.0999999999998" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7987,17 +9099,119 @@ where [refTable].[id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="137.6,41.6"
-          Id="Package\Load Facts\Load Wastes\Source Time"
-          TopLeft="703,649.8" />
-        <NodeLayout
-          Size="108,41.6"
-          Id="Package\Load Facts\Load Wastes\Trier 5"
-          TopLeft="720,779" />
+        <EdgeLayout
+          Id="Package\Load Facts\Load Wastes.Paths[Sortie de tri2]"
+          TopLeft="316.5,519.1">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="177.9,73.1000000000001"
+              Start="0,0"
+              End="177.9,65.6000000000001">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.5500000000001" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,32.5500000000001"
+                    Point2="0,36.5500000000001"
+                    Point3="4,36.5500000000001" />
+                  <mssgle:LineSegment
+                    End="173.9,36.5500000000001" />
+                  <mssgle:CubicBezierSegment
+                    Point1="173.9,36.5500000000001"
+                    Point2="177.9,36.5500000000001"
+                    Point3="177.9,40.5500000000001" />
+                  <mssgle:LineSegment
+                    End="177.9,65.6000000000001" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Facts\Load Wastes.Paths[Sortie de tri1]"
+          TopLeft="401,239.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-86.6666666666667,121.4"
+              Start="0,0"
+              End="-86.6666666666667,113.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,68.1188118811881" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,68.1188118811881"
+                    Point2="0,72.1188118811881"
+                    Point3="-4,72.1188118811881" />
+                  <mssgle:LineSegment
+                    End="-82.6666666666667,72.1188118811881" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-82.6666666666667,72.1188118811881"
+                    Point2="-86.6666666666667,72.1188118811881"
+                    Point3="-86.6666666666667,76.1188118811881" />
+                  <mssgle:LineSegment
+                    End="-86.6666666666667,113.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Facts\Load Wastes.Paths[Sortie de tri]"
+          TopLeft="157,247.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="106.666666666667,113.4"
+              Start="0,0"
+              End="106.666666666667,105.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,63.3663366336634" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,63.3663366336634"
+                    Point2="0,67.3663366336634"
+                    Point3="4,67.3663366336634" />
+                  <mssgle:LineSegment
+                    End="102.666666666667,67.3663366336634" />
+                  <mssgle:CubicBezierSegment
+                    Point1="102.666666666667,67.3663366336634"
+                    Point2="106.666666666667,67.3663366336634"
+                    Point3="106.666666666667,71.3663366336634" />
+                  <mssgle:LineSegment
+                    End="106.666666666667,105.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Load Facts\Load Wastes.Paths[Sortie de source OLE DB2]"
           TopLeft="772.9,691.4">
@@ -8017,37 +9231,105 @@ where [refTable].[id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="188,41.6"
-          Id="Package\Load Facts\Load Wastes\Conversion de données"
-          TopLeft="401,690.2" />
-        <NodeLayout
-          Size="108,41.6"
-          Id="Package\Load Facts\Load Wastes\Trier 6"
-          TopLeft="446,779.2" />
         <EdgeLayout
-          Id="Package\Load Facts\Load Wastes.Paths[Sortie de conversion de données]"
-          TopLeft="497.5,731.8">
+          Id="Package\Load Facts\Load Wastes.Paths[Sortie de source OLE DB1]"
+          TopLeft="658.7,406.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,47.4000000000003"
+              EndConnector="0,68.8000000000001"
               Start="0,0"
-              End="0,39.9000000000003">
+              End="0,61.3000000000001">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,39.9000000000003" />
+                    End="0,61.3000000000001" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Facts\Load Wastes.Paths[Sortie de source OLE DB]"
+          TopLeft="402.2,78.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,119.4"
+              Start="0,0"
+              End="0,111.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,111.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Facts\Load Wastes.Paths[Sortie de source Excel]"
+          TopLeft="151.6,55.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,40.4"
+              Start="0,0"
+              End="0,32.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Facts\Load Wastes.Paths[Sortie de jointure de fusion2]"
+          TopLeft="705.8,893.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="133.2,0"
+              Start="0,0"
+              End="125.7,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="125.7,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -8069,105 +9351,93 @@ where [refTable].[id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="168.8,41.6"
-          Id="Package\Load Facts\Load Wastes\Jointure de fusion 2"
-          TopLeft="537,871.4" />
         <EdgeLayout
-          Id="Package\Load Facts\Load Wastes.Paths[Sortie de tri4]"
-          TopLeft="500,820.8">
+          Id="Package\Load Facts\Load Wastes.Paths[Sortie de jointure de fusion]"
+          TopLeft="289,402.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="121.4,50.5999999999998"
+              EndConnector="27.4999999999999,74.8999999999999"
               Start="0,0"
-              End="121.4,43.0999999999998">
+              End="27.4999999999999,67.3999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.2999999999999" />
+                    End="0,33.45" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,21.2999999999999"
-                    Point2="0,25.2999999999999"
-                    Point3="4,25.2999999999999" />
+                    Point1="0,33.45"
+                    Point2="0,37.45"
+                    Point3="4,37.45" />
                   <mssgle:LineSegment
-                    End="117.4,25.2999999999999" />
+                    End="23.4999999999999,37.45" />
                   <mssgle:CubicBezierSegment
-                    Point1="117.4,25.2999999999999"
-                    Point2="121.4,25.2999999999999"
-                    Point3="121.4,29.2999999999999" />
+                    Point1="23.4999999999999,37.45"
+                    Point2="27.4999999999999,37.45"
+                    Point3="27.4999999999999,41.45" />
                   <mssgle:LineSegment
-                    End="121.4,43.0999999999998" />
+                    End="27.4999999999999,67.3999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load Facts\Load Wastes.Paths[Sortie de tri5]"
-          TopLeft="774,820.6">
+          Id="Package\Load Facts\Load Wastes.Paths[Sortie de conversion de données]"
+          TopLeft="497.5,731.8">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-125.8,50.8000000000002"
+              EndConnector="0,47.4000000000003"
               Start="0,0"
-              End="-125.8,43.3000000000002">
+              End="0,39.9000000000003">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.1938028169015" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.1938028169015"
-                    Point2="0,30.1938028169015"
-                    Point3="-4,30.1938028169015" />
-                  <mssgle:LineSegment
-                    End="-121.8,30.1938028169015" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-121.8,30.1938028169015"
-                    Point2="-125.8,30.1938028169015"
-                    Point3="-125.8,34.1938028169015" />
-                  <mssgle:LineSegment
-                    End="-125.8,43.3000000000002" />
+                    End="0,39.9000000000003" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="168,41.6"
-          Id="Package\Load Facts\Load Wastes\Destination Wastes"
-          TopLeft="839,874" />
         <EdgeLayout
-          Id="Package\Load Facts\Load Wastes.Paths[Sortie de jointure de fusion2]"
-          TopLeft="705.8,893.5">
+          Id="Package\Load Facts\Load Wastes.Paths[Sortie de colonne dérivée]"
+          TopLeft="155.6,137.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="133.2,0"
+              EndConnector="0,68.4"
               Start="0,0"
-              End="125.7,0">
+              End="0,60.9">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="125.7,0" />
+                    End="0,60.9" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8175,6 +9445,19 @@ where [refTable].[id] = ?</property>
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\Load Facts\Load Wastes\Source Ingredient">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Facts\Load Wastes\Destination Wastes">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -8200,7 +9483,20 @@ where [refTable].[id] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load Facts\Load Wastes\Destination Wastes">
+    design-time-name="Package\Load Dimensions\Load Supplier\Source SupplierOrder">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Dimensions\Load Supplier\Destination OLE DB">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
