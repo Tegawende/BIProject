@@ -11,8 +11,8 @@
   DTS:LocaleID="2060"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="82"
-  DTS:VersionGUID="{D7BCED8A-2181-4A60-827D-D2648D1D896C}">
+  DTS:VersionBuild="92"
+  DTS:VersionGUID="{8D2C772E-8162-4235-AF84-038A75BFFDA2}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,11 +23,11 @@
       DTS:ObjectName="bi.unamurcs.be.DW_Team_G.Team_G">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=bi.unamurcs.be;User ID=Team_G;Initial Catalog=DW_Team_G;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Package-{623143AC-328A-4AEB-9606-28F6ADB60597}bi.unamurcs.be.DW_Team_G.Team_G;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=bi.unamurcs.be;User ID=Team_G;Initial Catalog=DW_Team_G;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{623143AC-328A-4AEB-9606-28F6ADB60597}bi.unamurcs.be.DW_Team_G.Team_G;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWLju8Dp2y0yvFvRo04cgowAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACqgCLpYd0pQU9DlYg/JAyOvE0ZC1um0Jdfh+fTtmK30gAAAAAOgAAAAAIAACAAAAAMaOAujFueShNr2dAibDDZHb2Gr7v9/xHCXT7h5ajJgDAAAADeKw0SQZ+1Km7SFHl7qBOBT4rZ9od0o8V+9MqTHEDES0S+YNhh67nFXt7z8MJGg9dAAAAAKToK08ze/b6h/EBuCX5n6QGY8mCaEQIqP+BYFAqLS/K0xJsbfvtIcauYcJwhN3Bjj78PGR//HA8j7T2tL77quw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWLju8Dp2y0yvFvRo04cgowAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAYhJMmLqG+1N3ySNeRZ0kwceT/7Lw8fKZ+SsTyWskoOQAAAAAOgAAAAAIAACAAAAAO8QrwJoDlCemAjN2L2whkJZ6mn8n84tHsSUmqCOXKczAAAAC9AUBT4w+jIyjuQyPTWoXnlA4KaqgF8RuMZIV4eJ3/yezBPXktVywuvb4RNda4k11AAAAA/tu+kLbnKxHd/ccjKxQElIqdLbuteX38xoR7nNpH4icATSvmf5gotx6M9R8ULSESictiQN1Rg9Ml/cVAvT3xXg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -38,11 +38,11 @@
       DTS:ObjectName="bi.unamurcs.be.RestoChain-ERP-DB.readonly">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=bi.unamurcs.be;User ID=readonly;Initial Catalog=RestoChain-ERP-DB;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Package-{2F09B8A8-55C4-4658-9948-64655D3EFC92}bi.unamurcs.be.RestoChain-ERP-DB.readonly;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=bi.unamurcs.be;User ID=readonly;Initial Catalog=RestoChain-ERP-DB;Provider=SQLOLEDB.1;Persist Security Info=True;OLE DB Services=-1;Auto Translate=False;Application Name=SSIS-Package-{2F09B8A8-55C4-4658-9948-64655D3EFC92}bi.unamurcs.be.RestoChain-ERP-DB.readonly;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWLju8Dp2y0yvFvRo04cgowAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAFNvbFswxYQjVevf2JC5ZmDCqN5SDBPKk0n010g8tImwAAAAAOgAAAAAIAACAAAAAZCDXq7IDqLTmxXE8a6j2pejKYS/J8xz66tZ1mU/pKgCAAAAAFhBqtTcL/dwUtBzHl7bQMhXi6RWvyW0Fb9eAjoOXHCkAAAAAZ1FJdxew46BZJto73nayi6Gz6PpPuhQWhE2wXW38pp7oy6ciWFls1cu+kqBYUuj1Vk18yO7az10HFRLAsZwmI</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWLju8Dp2y0yvFvRo04cgowAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADVnUJ/ujd5uqmIsXdYzSEiFeEe5Lz+KVjsxUrVFlbauwAAAAAOgAAAAAIAACAAAADeQ0p1JXErMx8SAHAujwmbaiXX8BLzbJtBFB1PaxJHOSAAAACAj0iyTZoP3VmEk6K0VNJ7MgG4Q3kb1xUnskOaYGXFLUAAAADq3nhIBLCyn+YC1fS3W09tnD/FyNxE0CvXGWgDZ4gb8+qkDlkQ08+jDrZw5LKW9sthDdEupK7rY2D8azRnjQNU</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -66,24 +66,24 @@
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="3"
               DTS:TextQualified="True"
-              DTS:ObjectName="MenuItemKey"
-              DTS:DTSID="{E440D801-812D-4465-B88E-0542F786FD88}"
+              DTS:ObjectName="SupplierId"
+              DTS:DTSID="{CE3E73A1-594E-4D13-AAFE-FC5994B3A683}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
+              DTS:DataType="5"
               DTS:TextQualified="True"
-              DTS:ObjectName="IngredientKey"
-              DTS:DTSID="{8B1A4913-2A26-4944-8C08-47FA342E0B1C}"
+              DTS:ObjectName="Score"
+              DTS:DTSID="{8B7C24E8-C564-49EC-BDBE-63414CBB8F79}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:DataType="3"
+              DTS:DataType="5"
               DTS:TextQualified="True"
-              DTS:ObjectName="SaleKey"
-              DTS:DTSID="{F81E6A47-ABA0-47BF-9185-D64EF7BC34B4}"
+              DTS:ObjectName="StandarDeviation"
+              DTS:DTSID="{8B347AED-E372-4A40-8C8A-31CB9767F5AB}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -97,16 +97,6 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\aurel\Documents\Unamur\Master 2\BI\Projet\EDASM101-Data-Gaspillage-Alimentaire.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Gestionnaire de connexions Excel 1]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{9A58E129-67AD-41CC-8E84-82799FBB51FF}"
-      DTS:ObjectName="Gestionnaire de connexions Excel 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\aurel\Desktop\test.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -2606,6 +2596,7 @@ where [refTable].[id] = ?</property>
           DTS:refId="Package\Conteneur de séquences\Load Supplier"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tâche de flux de données"
+          DTS:Disabled="True"
           DTS:DTSID="{84831F4F-9FD2-4335-B7FC-EEAFABF1B6DE}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -2617,327 +2608,11 @@ where [refTable].[id] = ?</property>
               version="1">
               <components>
                 <component
-                  refId="Package\Conteneur de séquences\Load Supplier\Agrégation"
-                  componentClassID="Microsoft.Aggregate"
-                  contactInfo="Agrégation;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;3"
-                  description="Agrège des données avec des fonctions telles que Moyenne, Somme, Nombre, Max.et Min. Par exemple, regroupez des données pour calculer la somme des ventes par produit ou la moyenne des visites par jour."
-                  name="Agrégation"
-                  version="3">
-                  <properties>
-                    <property
-                      dataType="System.Int32"
-                      description="Spécifie le nombre approximatif de clés GROUP BY produites par l'agrégation. Basse indique 500 000 valeurs de clés, Moyenne indique 5 millions de valeurs de clés et Haute indique plus de 25 millions de valeurs de clés. Non spécifié indique qu'aucune valeur KeyScale n'est utilisée."
-                      name="KeyScale"
-                      typeConverter="KeyScaleType">0</property>
-                    <property
-                      dataType="System.Null"
-                      description="Spécifie le nombre exact de clés GROUP BY produites par l'agrégation. Si une valeur KeyScale est spécifiée, la valeur dans Keys est prioritaire."
-                      name="Keys" />
-                    <property
-                      dataType="System.Int32"
-                      description="Spécifie le nombre approximatif de valeurs distinctes totalisé distinctement par l'agrégation dans une colonne. Basse indique 500 000 valeurs de clés, Moyenne indique 5 millions de valeurs de clés et Haute indique plus de 25 millions de valeurs de clés. Non spécifié indique qu'aucune valeur CountDistinctScale n'est utilisée."
-                      name="CountDistinctScale"
-                      typeConverter="KeyScaleType">0</property>
-                    <property
-                      dataType="System.Null"
-                      description="Spécifie le nombre exact de valeurs distinctes totalisées distinctement par l'agrégation dans une colonne. Si une valeur CountDistinctScale est spécifiée, la valeur dans CountDistinctKeys est prioritaire."
-                      name="CountDistinctKeys" />
-                    <property
-                      dataType="System.Int32"
-                      description="Spécifie le pourcentage possible d'extension de la mémoire pendant l'agrégation. Les valeurs valides vont de 1 à 100."
-                      name="AutoExtendFactor">25</property>
-                  </properties>
-                  <inputs>
-                    <input
-                      refId="Package\Conteneur de séquences\Load Supplier\Agrégation.Inputs[Entrée d'agrégation 1]"
-                      name="Entrée d'agrégation 1">
-                      <inputColumns>
-                        <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Agrégation.Inputs[Entrée d'agrégation 1].Columns[DeliveryTime]"
-                          cachedDataType="i4"
-                          cachedName="DeliveryTime"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[DeliveryTime]" />
-                        <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Agrégation.Inputs[Entrée d'agrégation 1].Columns[SupplierKey]"
-                          cachedDataType="i4"
-                          cachedName="SupplierKey"
-                          cachedSortKeyPosition="1"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierKey]" />
-                        <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Agrégation.Inputs[Entrée d'agrégation 1].Columns[SupplierName]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="100"
-                          cachedName="SupplierName"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierName]" />
-                        <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Agrégation.Inputs[Entrée d'agrégation 1].Columns[RegionName]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="100"
-                          cachedName="RegionName"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[RegionName]" />
-                        <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Agrégation.Inputs[Entrée d'agrégation 1].Columns[CountryName]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="100"
-                          cachedName="CountryName"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[CountryName]" />
-                      </inputColumns>
-                      <externalMetadataColumns />
-                    </input>
-                  </inputs>
-                  <outputs>
-                    <output
-                      refId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1]"
-                      name="Sortie d'agrégation 1">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Spécifie le nombre approximatif de clés GROUP BY produites par l'agrégation. Basse indique 500 000 valeurs de clés, Moyenne indique 5 millions de valeurs de clés et Haute indique plus de 25 millions de valeurs de clés. Non spécifié indique qu'aucune valeur KeyScale n'est utilisée."
-                          name="KeyScale"
-                          typeConverter="KeyScaleType">0</property>
-                        <property
-                          dataType="System.Null"
-                          description="Spécifie le nombre exact de clés GROUP BY produites par l'agrégation. Si une valeur KeyScale est spécifiée, la valeur dans Keys est prioritaire."
-                          name="Keys" />
-                      </properties>
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[SupplierKey]"
-                          dataType="i4"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[SupplierKey]"
-                          name="SupplierKey">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Spécifie l'ID de la colonne d'entrée utilisé dans l'agrégation."
-                              name="AggregationColumnId">#{Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierKey]}</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Spécifie le type d'agrégation."
-                              name="AggregationType"
-                              typeConverter="AggregationType">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Indique si la colonne nécessite un traitement spécial, au cas où elle contiendrait des données dépassant la taille limite ou nécessiterait une précision au-delà du type de données float."
-                              name="IsBig">1</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Spécifie les options de comparaison de chaînes."
-                              name="AggregationComparisonFlags">0</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[Score]"
-                          dataType="r8"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[Score]"
-                          name="Score">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Spécifie l'ID de la colonne d'entrée utilisé dans l'agrégation."
-                              name="AggregationColumnId">#{Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[DeliveryTime]}</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Spécifie le type d'agrégation."
-                              name="AggregationType"
-                              typeConverter="AggregationType">5</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Indique si la colonne nécessite un traitement spécial, au cas où elle contiendrait des données dépassant la taille limite ou nécessiterait une précision au-delà du type de données float."
-                              name="IsBig">1</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Spécifie les options de comparaison de chaînes."
-                              name="AggregationComparisonFlags">0</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[SupplierName]"
-                          codePage="1252"
-                          dataType="str"
-                          length="100"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[SupplierName]"
-                          name="SupplierName">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Spécifie l'ID de la colonne d'entrée utilisé dans l'agrégation."
-                              name="AggregationColumnId">#{Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierName]}</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Spécifie le type d'agrégation."
-                              name="AggregationType"
-                              typeConverter="AggregationType">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Indique si la colonne nécessite un traitement spécial, au cas où elle contiendrait des données dépassant la taille limite ou nécessiterait une précision au-delà du type de données float."
-                              name="IsBig">1</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Spécifie les options de comparaison de chaînes."
-                              name="AggregationComparisonFlags">0</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[RegionName]"
-                          codePage="1252"
-                          dataType="str"
-                          length="100"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[RegionName]"
-                          name="RegionName">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Spécifie l'ID de la colonne d'entrée utilisé dans l'agrégation."
-                              name="AggregationColumnId">#{Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[RegionName]}</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Spécifie le type d'agrégation."
-                              name="AggregationType"
-                              typeConverter="AggregationType">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Indique si la colonne nécessite un traitement spécial, au cas où elle contiendrait des données dépassant la taille limite ou nécessiterait une précision au-delà du type de données float."
-                              name="IsBig">1</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Spécifie les options de comparaison de chaînes."
-                              name="AggregationComparisonFlags">0</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[CountryName]"
-                          codePage="1252"
-                          dataType="str"
-                          length="100"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[CountryName]"
-                          name="CountryName">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Spécifie l'ID de la colonne d'entrée utilisé dans l'agrégation."
-                              name="AggregationColumnId">#{Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[CountryName]}</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Spécifie le type d'agrégation."
-                              name="AggregationType"
-                              typeConverter="AggregationType">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Indique si la colonne nécessite un traitement spécial, au cas où elle contiendrait des données dépassant la taille limite ou nécessiterait une précision au-delà du type de données float."
-                              name="IsBig">1</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Spécifie les options de comparaison de chaînes."
-                              name="AggregationComparisonFlags">0</property>
-                          </properties>
-                        </outputColumn>
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-                <component
-                  refId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée"
-                  componentClassID="Microsoft.DerivedColumn"
-                  contactInfo="Colonne dérivée;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
-                  description="Crée de nouvelles valeurs de colonne en appliquant des expressions aux colonnes d'entrée de transformation. Créez de nouvelles colonnes ou remplacez celles qui existent déjà. Par exemple, concaténez les valeurs de la colonne 'prénom' et de la colonne 'nom' pour créer une colonne 'nom complet'."
-                  name="Colonne dérivée"
-                  usesDispositions="true">
-                  <inputs>
-                    <input
-                      refId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
-                      description="Entrée de la transformation de colonnes dérivées"
-                      name="Entrée de colonne dérivée">
-                      <inputColumns>
-                        <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Inputs[Entrée de colonne dérivée].Columns[receivedAt]"
-                          cachedDataType="wstr"
-                          cachedLength="10"
-                          cachedName="receivedAt"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[receivedAt]" />
-                        <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Inputs[Entrée de colonne dérivée].Columns[expectedDelivery]"
-                          cachedDataType="wstr"
-                          cachedLength="10"
-                          cachedName="expectedDelivery"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[expectedDelivery]" />
-                      </inputColumns>
-                      <externalMetadataColumns />
-                    </input>
-                  </inputs>
-                  <outputs>
-                    <output
-                      refId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Outputs[Sortie de colonne dérivée]"
-                      description="Sortie par défaut de la transformation de colonnes dérivées"
-                      exclusionGroup="1"
-                      name="Sortie de colonne dérivée"
-                      synchronousInputId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[DeliveryTime]"
-                          dataType="i4"
-                          errorOrTruncationOperation="Calcul"
-                          errorRowDisposition="FailComponent"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[DeliveryTime]"
-                          name="DeliveryTime"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expression de colonne dérivée"
-                              name="Expression">[DATEDIFF]("dd",(DT_DBTIMESTAMP)#{Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[expectedDelivery]},(DT_DBTIMESTAMP)#{Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[receivedAt]})</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expression claire de colonne dérivée"
-                              expressionType="Notify"
-                              name="FriendlyExpression">DATEDIFF("dd",(DT_DBTIMESTAMP)expectedDelivery,(DT_DBTIMESTAMP)receivedAt)</property>
-                          </properties>
-                        </outputColumn>
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                    <output
-                      refId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée]"
-                      description="Sortie d'erreur de la transformation de colonnes dérivées"
-                      exclusionGroup="1"
-                      isErrorOut="true"
-                      name="Sortie d'erreur de colonne dérivée"
-                      synchronousInputId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
-                          dataType="i4"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
-                          name="ErrorCode"
-                          specialFlags="1" />
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
-                          dataType="i4"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
-                          name="ErrorColumn"
-                          specialFlags="2" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-                <component
-                  refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB"
+                  refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier"
                   componentClassID="Microsoft.OLEDBDestination"
                   contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
                   description="Destination OLE DB"
-                  name="Destination OLE DB"
+                  name="Destination Supplier"
                   usesDispositions="true"
                   version="4">
                   <properties>
@@ -2990,7 +2665,7 @@ where [refTable].[id] = ?</property>
                   </properties>
                   <connections>
                     <connection
-                      refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Connections[OleDbConnection]"
+                      refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Connections[OleDbConnection]"
                       connectionManagerID="Package.ConnectionManagers[bi.unamurcs.be.DW_Team_G.Team_G]"
                       connectionManagerRefId="Package.ConnectionManagers[bi.unamurcs.be.DW_Team_G.Team_G]"
                       description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
@@ -2998,98 +2673,109 @@ where [refTable].[id] = ?</property>
                   </connections>
                   <inputs>
                     <input
-                      refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+                      refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB]"
                       errorOrTruncationOperation="Insérer"
                       errorRowDisposition="FailComponent"
                       hasSideEffects="true"
                       name="Entrée de destination OLE DB">
                       <inputColumns>
                         <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[SupplierKey]"
-                          cachedDataType="i4"
-                          cachedName="SupplierKey"
-                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierKey]"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[SupplierKey]" />
-                        <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Score]"
-                          cachedDataType="r8"
-                          cachedName="Score"
-                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Score]"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[Score]" />
-                        <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[SupplierName]"
+                          refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].Columns[SupplierName]"
                           cachedCodepage="1252"
                           cachedDataType="str"
                           cachedLength="100"
                           cachedName="SupplierName"
-                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierName]"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[SupplierName]" />
+                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierName]"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierName]" />
                         <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[RegionName]"
+                          refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].Columns[RegionName]"
                           cachedCodepage="1252"
                           cachedDataType="str"
                           cachedLength="100"
                           cachedName="RegionName"
-                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[RegionName]"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[RegionName]" />
+                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[RegionName]"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[RegionName]" />
                         <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[CountryName]"
+                          refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].Columns[CountryName]"
                           cachedCodepage="1252"
                           cachedDataType="str"
                           cachedLength="100"
                           cachedName="CountryName"
-                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[CountryName]"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1].Columns[CountryName]" />
+                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[CountryName]"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[CountryName]" />
+                        <inputColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].Columns[SupplierKey]"
+                          cachedDataType="i4"
+                          cachedName="SupplierKey"
+                          cachedSortKeyPosition="1"
+                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierKey]"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierKey]" />
+                        <inputColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].Columns[Score]"
+                          cachedDataType="r8"
+                          cachedName="Score"
+                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[Score]"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[Score]" />
+                        <inputColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].Columns[StandarDeviation]"
+                          cachedDataType="r8"
+                          cachedName="StandarDeviation"
+                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[StandarDeviation]"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[StandarDeviation]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
                         <externalMetadataColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierKey]"
+                          refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierKey]"
                           dataType="i4"
                           name="SupplierKey" />
                         <externalMetadataColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Score]"
-                          dataType="r8"
-                          name="Score" />
-                        <externalMetadataColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierName]"
+                          refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierName]"
                           codePage="1252"
                           dataType="str"
                           length="100"
                           name="SupplierName" />
                         <externalMetadataColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[RegionName]"
+                          refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[RegionName]"
                           codePage="1252"
                           dataType="str"
                           length="100"
                           name="RegionName" />
                         <externalMetadataColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[CountryName]"
+                          refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[CountryName]"
                           codePage="1252"
                           dataType="str"
                           length="100"
                           name="CountryName" />
+                        <externalMetadataColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[Score]"
+                          dataType="r8"
+                          name="Score" />
+                        <externalMetadataColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB].ExternalColumns[StandarDeviation]"
+                          dataType="r8"
+                          name="StandarDeviation" />
                       </externalMetadataColumns>
                     </input>
                   </inputs>
                   <outputs>
                     <output
-                      refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
+                      refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Outputs[Sortie d'erreur de destination OLE DB]"
                       exclusionGroup="1"
                       isErrorOut="true"
                       name="Sortie d'erreur de destination OLE DB"
-                      synchronousInputId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
+                      synchronousInputId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB]">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                          refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
                           dataType="i4"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
                           name="ErrorCode"
                           specialFlags="1" />
                         <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                          refId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
                           dataType="i4"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -3165,23 +2851,21 @@ where [refTable].[id] = ?</property>
                       name="Entrée droite de jointure de fusion">
                       <inputColumns>
                         <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion].Columns[supplierId]"
+                          refId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion].Columns[SupplierId]"
                           cachedDataType="i4"
-                          cachedName="supplierId"
+                          cachedName="SupplierId"
                           cachedSortKeyPosition="1"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[supplierId]" />
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Trier 3.Outputs[Sortie de tri].Columns[SupplierId]" />
                         <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion].Columns[receivedAt]"
-                          cachedDataType="wstr"
-                          cachedLength="10"
-                          cachedName="receivedAt"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[receivedAt]" />
+                          refId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion].Columns[Score]"
+                          cachedDataType="r8"
+                          cachedName="Score"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Trier 3.Outputs[Sortie de tri].Columns[Score]" />
                         <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion].Columns[expectedDelivery]"
-                          cachedDataType="wstr"
-                          cachedLength="10"
-                          cachedName="expectedDelivery"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[expectedDelivery]" />
+                          refId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion].Columns[StandarDeviation]"
+                          cachedDataType="r8"
+                          cachedName="StandarDeviation"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Trier 3.Outputs[Sortie de tri].Columns[StandarDeviation]" />
                       </inputColumns>
                       <externalMetadataColumns />
                     </input>
@@ -3205,20 +2889,6 @@ where [refTable].[id] = ?</property>
                               dataType="System.Int32"
                               description="Colonne d'entrée associée à cette colonne de sortie"
                               name="InputColumnID">#{Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Inputs[Entrée gauche de jointure de fusion].Columns[Source Supplier.name]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierKey]"
-                          dataType="i4"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierKey]"
-                          name="SupplierKey"
-                          sortKeyPosition="1">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Colonne d'entrée associée à cette colonne de sortie"
-                              name="InputColumnID">#{Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Inputs[Entrée gauche de jointure de fusion].Columns[id]}</property>
                           </properties>
                         </outputColumn>
                         <outputColumn
@@ -3252,31 +2922,43 @@ where [refTable].[id] = ?</property>
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[receivedAt]"
-                          dataType="wstr"
-                          length="10"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[receivedAt]"
-                          name="receivedAt">
+                          refId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierKey]"
+                          dataType="i4"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[SupplierKey]"
+                          name="SupplierKey"
+                          sortKeyPosition="1">
                           <properties>
                             <property
                               containsID="true"
                               dataType="System.Int32"
                               description="Colonne d'entrée associée à cette colonne de sortie"
-                              name="InputColumnID">#{Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion].Columns[receivedAt]}</property>
+                              name="InputColumnID">#{Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Inputs[Entrée gauche de jointure de fusion].Columns[id]}</property>
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[expectedDelivery]"
-                          dataType="wstr"
-                          length="10"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[expectedDelivery]"
-                          name="expectedDelivery">
+                          refId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[Score]"
+                          dataType="r8"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[Score]"
+                          name="Score">
                           <properties>
                             <property
                               containsID="true"
                               dataType="System.Int32"
                               description="Colonne d'entrée associée à cette colonne de sortie"
-                              name="InputColumnID">#{Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion].Columns[expectedDelivery]}</property>
+                              name="InputColumnID">#{Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion].Columns[Score]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[StandarDeviation]"
+                          dataType="r8"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion].Columns[StandarDeviation]"
+                          name="StandarDeviation">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Colonne d'entrée associée à cette colonne de sortie"
+                              name="InputColumnID">#{Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion].Columns[StandarDeviation]}</property>
                           </properties>
                         </outputColumn>
                       </outputColumns>
@@ -3617,6 +3299,151 @@ where [refTable].[id] = ?</property>
                   </outputs>
                 </component>
                 <component
+                  refId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation"
+                  componentClassID="Microsoft.OLEDBSource"
+                  contactInfo="Source OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;7"
+                  description="Source OLE DB"
+                  name="Source Score &amp; StandarDeviation"
+                  usesDispositions="true"
+                  version="7">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                      name="OpenRowset"></property>
+                    <property
+                      dataType="System.String"
+                      description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="Commande SQL à exécuter."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT a.SupplierId, AVG(Cast(a.Test as Float)) as Score, STDEV(Cast(a.Test as Float)) as StandarDeviation
+FROM (SELECT id, SupplierId, placedAt, receivedAt, DATEDIFF("day", expectedDelivery , receivedAt) as Test 
+	  FROM [RestoChain-ERP-DB].dbo.SupplierOrder) a
+GROUP BY a.SupplierId</property>
+                    <property
+                      dataType="System.String"
+                      description="Variable contenant la commande SQL à exécuter."
+                      name="SqlCommandVariable"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Spécifie le mode utilisé pour accéder à la base de données."
+                      name="AccessMode"
+                      typeConverter="AccessMode">2</property>
+                    <property
+                      dataType="System.String"
+                      description="Mappages entre les paramètres de la commande SQL et les variables."
+                      name="ParameterMapping"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[bi.unamurcs.be.RestoChain-ERP-DB.readonly]"
+                      connectionManagerRefId="Package.ConnectionManagers[bi.unamurcs.be.RestoChain-ERP-DB.readonly]"
+                      description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                      name="OleDbConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB]"
+                      name="Sortie de source OLE DB">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].Columns[SupplierId]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].ExternalColumns[SupplierId]"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].Columns[SupplierId]"
+                          name="SupplierId"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].Columns[Score]"
+                          dataType="r8"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].ExternalColumns[Score]"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].Columns[Score]"
+                          name="Score"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].Columns[StandarDeviation]"
+                          dataType="r8"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].ExternalColumns[StandarDeviation]"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].Columns[StandarDeviation]"
+                          name="StandarDeviation"
+                          truncationRowDisposition="FailComponent" />
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].ExternalColumns[SupplierId]"
+                          dataType="i4"
+                          name="SupplierId" />
+                        <externalMetadataColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].ExternalColumns[Score]"
+                          dataType="r8"
+                          name="Score" />
+                        <externalMetadataColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].ExternalColumns[StandarDeviation]"
+                          dataType="r8"
+                          name="StandarDeviation" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie d'erreur de source OLE DB]"
+                      isErrorOut="true"
+                      name="Sortie d'erreur de source OLE DB">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie d'erreur de source OLE DB].Columns[SupplierId]"
+                          dataType="i4"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie d'erreur de source OLE DB].Columns[SupplierId]"
+                          name="SupplierId" />
+                        <outputColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie d'erreur de source OLE DB].Columns[Score]"
+                          dataType="r8"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie d'erreur de source OLE DB].Columns[Score]"
+                          name="Score" />
+                        <outputColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie d'erreur de source OLE DB].Columns[StandarDeviation]"
+                          dataType="r8"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie d'erreur de source OLE DB].Columns[StandarDeviation]"
+                          name="StandarDeviation" />
+                        <outputColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
                   refId="Package\Conteneur de séquences\Load Supplier\Source Supplier"
                   componentClassID="Microsoft.OLEDBSource"
                   contactInfo="Source OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;7"
@@ -3763,167 +3590,6 @@ where [refTable].[id] = ?</property>
                           dataType="i4"
                           lineageId="Package\Conteneur de séquences\Load Supplier\Source Supplier.Outputs[Sortie d'erreur de source OLE DB].Columns[id]"
                           name="id" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-                <component
-                  refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder"
-                  componentClassID="Microsoft.OLEDBSource"
-                  contactInfo="Source OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;7"
-                  description="Source OLE DB"
-                  name="Source SupplierOrder"
-                  usesDispositions="true"
-                  version="7">
-                  <properties>
-                    <property
-                      dataType="System.Int32"
-                      description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
-                      name="CommandTimeout">0</property>
-                    <property
-                      dataType="System.String"
-                      description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
-                      name="OpenRowset">[dbo].[SupplierOrder]</property>
-                    <property
-                      dataType="System.String"
-                      description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
-                      name="OpenRowsetVariable"></property>
-                    <property
-                      dataType="System.String"
-                      description="Commande SQL à exécuter."
-                      name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
-                    <property
-                      dataType="System.String"
-                      description="Variable contenant la commande SQL à exécuter."
-                      name="SqlCommandVariable"></property>
-                    <property
-                      dataType="System.Int32"
-                      description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
-                      name="DefaultCodePage">1252</property>
-                    <property
-                      dataType="System.Boolean"
-                      description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
-                      name="AlwaysUseDefaultCodePage">false</property>
-                    <property
-                      dataType="System.Int32"
-                      description="Spécifie le mode utilisé pour accéder à la base de données."
-                      name="AccessMode"
-                      typeConverter="AccessMode">0</property>
-                    <property
-                      dataType="System.String"
-                      description="Mappages entre les paramètres de la commande SQL et les variables."
-                      name="ParameterMapping"></property>
-                  </properties>
-                  <connections>
-                    <connection
-                      refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Connections[OleDbConnection]"
-                      connectionManagerID="Package.ConnectionManagers[bi.unamurcs.be.RestoChain-ERP-DB.readonly]"
-                      connectionManagerRefId="Package.ConnectionManagers[bi.unamurcs.be.RestoChain-ERP-DB.readonly]"
-                      description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
-                      name="OleDbConnection" />
-                  </connections>
-                  <outputs>
-                    <output
-                      refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB]"
-                      name="Sortie de source OLE DB">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[expectedDelivery]"
-                          dataType="wstr"
-                          errorOrTruncationOperation="Conversion"
-                          errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[expectedDelivery]"
-                          length="10"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[expectedDelivery]"
-                          name="expectedDelivery"
-                          truncationRowDisposition="FailComponent" />
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[supplierId]"
-                          dataType="i4"
-                          errorOrTruncationOperation="Conversion"
-                          errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[supplierId]"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[supplierId]"
-                          name="supplierId"
-                          truncationRowDisposition="FailComponent" />
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[receivedAt]"
-                          dataType="wstr"
-                          errorOrTruncationOperation="Conversion"
-                          errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[receivedAt]"
-                          length="10"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[receivedAt]"
-                          name="receivedAt"
-                          truncationRowDisposition="FailComponent" />
-                      </outputColumns>
-                      <externalMetadataColumns
-                        isUsed="True">
-                        <externalMetadataColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[id]"
-                          dataType="i4"
-                          name="id" />
-                        <externalMetadataColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[placedAt]"
-                          dataType="wstr"
-                          length="10"
-                          name="placedAt" />
-                        <externalMetadataColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[expectedDelivery]"
-                          dataType="wstr"
-                          length="10"
-                          name="expectedDelivery" />
-                        <externalMetadataColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[restaurantId]"
-                          dataType="i4"
-                          name="restaurantId" />
-                        <externalMetadataColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[supplierId]"
-                          dataType="i4"
-                          name="supplierId" />
-                        <externalMetadataColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].ExternalColumns[receivedAt]"
-                          dataType="wstr"
-                          length="10"
-                          name="receivedAt" />
-                      </externalMetadataColumns>
-                    </output>
-                    <output
-                      refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB]"
-                      isErrorOut="true"
-                      name="Sortie d'erreur de source OLE DB">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[expectedDelivery]"
-                          dataType="wstr"
-                          length="10"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[expectedDelivery]"
-                          name="expectedDelivery" />
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[supplierId]"
-                          dataType="i4"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[supplierId]"
-                          name="supplierId" />
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[receivedAt]"
-                          dataType="wstr"
-                          length="10"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[receivedAt]"
-                          name="receivedAt" />
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
-                          dataType="i4"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
-                          name="ErrorCode"
-                          specialFlags="1" />
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
-                          dataType="i4"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
-                          name="ErrorColumn"
-                          specialFlags="2" />
                       </outputColumns>
                       <externalMetadataColumns />
                     </output>
@@ -4155,11 +3821,11 @@ where [refTable].[id] = ?</property>
                   </outputs>
                 </component>
                 <component
-                  refId="Package\Conteneur de séquences\Load Supplier\Trier 1"
+                  refId="Package\Conteneur de séquences\Load Supplier\Trier 3"
                   componentClassID="Microsoft.Sort"
                   contactInfo="Trier;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
                   description="Trie les données d'entrée en ordre croissant ou décroissant lorsque le tri ne peut pas être effectué à la source. Par exemple, triez les données de vente par 'id de client' avant leur enregistrement dans un fichier plat et leur diffusion dans un autre service. Remarque : nous ne recommandons pas cette transformation dans le cas de flux de données volumineux."
-                  name="Trier 1"
+                  name="Trier 3"
                   version="1">
                   <properties>
                     <property
@@ -4174,31 +3840,14 @@ where [refTable].[id] = ?</property>
                   </properties>
                   <inputs>
                     <input
-                      refId="Package\Conteneur de séquences\Load Supplier\Trier 1.Inputs[Entrée de tri]"
+                      refId="Package\Conteneur de séquences\Load Supplier\Trier 3.Inputs[Entrée de tri]"
                       name="Entrée de tri">
                       <inputColumns>
                         <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Trier 1.Inputs[Entrée de tri].Columns[expectedDelivery]"
-                          cachedDataType="wstr"
-                          cachedLength="10"
-                          cachedName="expectedDelivery"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[expectedDelivery]">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Spécifie les options de comparaison pour les données caractères."
-                              name="NewComparisonFlags">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Spécifie l'ordre de tri de la colonne."
-                              name="NewSortKeyPosition">0</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Trier 1.Inputs[Entrée de tri].Columns[supplierId]"
+                          refId="Package\Conteneur de séquences\Load Supplier\Trier 3.Inputs[Entrée de tri].Columns[SupplierId]"
                           cachedDataType="i4"
-                          cachedName="supplierId"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[supplierId]">
+                          cachedName="SupplierId"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].Columns[SupplierId]">
                           <properties>
                             <property
                               dataType="System.Int32"
@@ -4211,11 +3860,26 @@ where [refTable].[id] = ?</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Trier 1.Inputs[Entrée de tri].Columns[receivedAt]"
-                          cachedDataType="wstr"
-                          cachedLength="10"
-                          cachedName="receivedAt"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[receivedAt]">
+                          refId="Package\Conteneur de séquences\Load Supplier\Trier 3.Inputs[Entrée de tri].Columns[Score]"
+                          cachedDataType="r8"
+                          cachedName="Score"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].Columns[Score]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie les options de comparaison pour les données caractères."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Spécifie l'ordre de tri de la colonne."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Trier 3.Inputs[Entrée de tri].Columns[StandarDeviation]"
+                          cachedDataType="r8"
+                          cachedName="StandarDeviation"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].Columns[StandarDeviation]">
                           <properties>
                             <property
                               dataType="System.Int32"
@@ -4233,50 +3897,48 @@ where [refTable].[id] = ?</property>
                   </inputs>
                   <outputs>
                     <output
-                      refId="Package\Conteneur de séquences\Load Supplier\Trier 1.Outputs[Sortie de tri]"
+                      refId="Package\Conteneur de séquences\Load Supplier\Trier 3.Outputs[Sortie de tri]"
                       isSorted="true"
                       name="Sortie de tri">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[expectedDelivery]"
-                          dataType="wstr"
-                          length="10"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[expectedDelivery]"
-                          name="expectedDelivery">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Spécifie l'identificateur de traçabilité de la colonne d'entrée associé à cette colonne de sortie."
-                              name="SortColumnId">#{Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[expectedDelivery]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[supplierId]"
+                          refId="Package\Conteneur de séquences\Load Supplier\Trier 3.Outputs[Sortie de tri].Columns[SupplierId]"
                           dataType="i4"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[supplierId]"
-                          name="supplierId"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Trier 3.Outputs[Sortie de tri].Columns[SupplierId]"
+                          name="SupplierId"
                           sortKeyPosition="1">
                           <properties>
                             <property
                               containsID="true"
                               dataType="System.Int32"
                               description="Spécifie l'identificateur de traçabilité de la colonne d'entrée associé à cette colonne de sortie."
-                              name="SortColumnId">#{Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[supplierId]}</property>
+                              name="SortColumnId">#{Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].Columns[SupplierId]}</property>
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Conteneur de séquences\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[receivedAt]"
-                          dataType="wstr"
-                          length="10"
-                          lineageId="Package\Conteneur de séquences\Load Supplier\Trier 1.Outputs[Sortie de tri].Columns[receivedAt]"
-                          name="receivedAt">
+                          refId="Package\Conteneur de séquences\Load Supplier\Trier 3.Outputs[Sortie de tri].Columns[Score]"
+                          dataType="r8"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Trier 3.Outputs[Sortie de tri].Columns[Score]"
+                          name="Score">
                           <properties>
                             <property
                               containsID="true"
                               dataType="System.Int32"
                               description="Spécifie l'identificateur de traçabilité de la colonne d'entrée associé à cette colonne de sortie."
-                              name="SortColumnId">#{Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB].Columns[receivedAt]}</property>
+                              name="SortColumnId">#{Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].Columns[Score]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Conteneur de séquences\Load Supplier\Trier 3.Outputs[Sortie de tri].Columns[StandarDeviation]"
+                          dataType="r8"
+                          lineageId="Package\Conteneur de séquences\Load Supplier\Trier 3.Outputs[Sortie de tri].Columns[StandarDeviation]"
+                          name="StandarDeviation">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Spécifie l'identificateur de traçabilité de la colonne d'entrée associé à cette colonne de sortie."
+                              name="SortColumnId">#{Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB].Columns[StandarDeviation]}</property>
                           </properties>
                         </outputColumn>
                       </outputColumns>
@@ -4287,30 +3949,20 @@ where [refTable].[id] = ?</property>
               </components>
               <paths>
                 <path
-                  refId="Package\Conteneur de séquences\Load Supplier.Paths[Sortie d'agrégation 1]"
-                  endId="Package\Conteneur de séquences\Load Supplier\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
-                  name="Sortie d'agrégation 1"
-                  startId="Package\Conteneur de séquences\Load Supplier\Agrégation.Outputs[Sortie d'agrégation 1]" />
-                <path
-                  refId="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de colonne dérivée]"
-                  endId="Package\Conteneur de séquences\Load Supplier\Agrégation.Inputs[Entrée d'agrégation 1]"
-                  name="Sortie de colonne dérivée"
-                  startId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Outputs[Sortie de colonne dérivée]" />
-                <path
                   refId="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de jointure de fusion]"
-                  endId="Package\Conteneur de séquences\Load Supplier\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+                  endId="Package\Conteneur de séquences\Load Supplier\Destination Supplier.Inputs[Entrée de destination OLE DB]"
                   name="Sortie de jointure de fusion"
                   startId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Outputs[Sortie de jointure de fusion]" />
                 <path
                   refId="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de recherche avec correspondance]"
-                  endId="Package\Conteneur de séquences\Load Supplier\Lookup Country.Inputs[Entrée de recherche]"
-                  name="Sortie de recherche avec correspondance"
-                  startId="Package\Conteneur de séquences\Load Supplier\Lookup Region.Outputs[Sortie de recherche avec correspondance]" />
-                <path
-                  refId="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de recherche avec correspondance1]"
                   endId="Package\Conteneur de séquences\Load Supplier\Trier.Inputs[Entrée de tri]"
                   name="Sortie de recherche avec correspondance"
                   startId="Package\Conteneur de séquences\Load Supplier\Lookup Country.Outputs[Sortie de recherche avec correspondance]" />
+                <path
+                  refId="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de recherche avec correspondance1]"
+                  endId="Package\Conteneur de séquences\Load Supplier\Lookup Country.Inputs[Entrée de recherche]"
+                  name="Sortie de recherche avec correspondance"
+                  startId="Package\Conteneur de séquences\Load Supplier\Lookup Region.Outputs[Sortie de recherche avec correspondance]" />
                 <path
                   refId="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de source OLE DB]"
                   endId="Package\Conteneur de séquences\Load Supplier\Lookup Region.Inputs[Entrée de recherche]"
@@ -4318,9 +3970,9 @@ where [refTable].[id] = ?</property>
                   startId="Package\Conteneur de séquences\Load Supplier\Source Supplier.Outputs[Sortie de source OLE DB]" />
                 <path
                   refId="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de source OLE DB1]"
-                  endId="Package\Conteneur de séquences\Load Supplier\Trier 1.Inputs[Entrée de tri]"
+                  endId="Package\Conteneur de séquences\Load Supplier\Trier 3.Inputs[Entrée de tri]"
                   name="Sortie de source OLE DB"
-                  startId="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder.Outputs[Sortie de source OLE DB]" />
+                  startId="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation.Outputs[Sortie de source OLE DB]" />
                 <path
                   refId="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de tri]"
                   endId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Inputs[Entrée gauche de jointure de fusion]"
@@ -4330,7 +3982,7 @@ where [refTable].[id] = ?</property>
                   refId="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de tri1]"
                   endId="Package\Conteneur de séquences\Load Supplier\Jointure de fusion.Inputs[Entrée droite de jointure de fusion]"
                   name="Sortie de tri"
-                  startId="Package\Conteneur de séquences\Load Supplier\Trier 1.Outputs[Sortie de tri]" />
+                  startId="Package\Conteneur de séquences\Load Supplier\Trier 3.Outputs[Sortie de tri]" />
               </paths>
             </pipeline>
           </DTS:ObjectData>
@@ -4529,11 +4181,11 @@ where [refTable].[id] = ?</property>
                   </outputs>
                 </component>
                 <component
-                  refId="Package\Conteneur de séquences\Load Time\Destination OLE DB"
+                  refId="Package\Conteneur de séquences\Load Time\Destination Time"
                   componentClassID="Microsoft.OLEDBDestination"
                   contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
                   description="Destination OLE DB"
-                  name="Destination OLE DB"
+                  name="Destination Time"
                   usesDispositions="true"
                   version="4">
                   <properties>
@@ -4586,7 +4238,7 @@ where [refTable].[id] = ?</property>
                   </properties>
                   <connections>
                     <connection
-                      refId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Connections[OleDbConnection]"
+                      refId="Package\Conteneur de séquences\Load Time\Destination Time.Connections[OleDbConnection]"
                       connectionManagerID="Package.ConnectionManagers[bi.unamurcs.be.DW_Team_G.Team_G]"
                       connectionManagerRefId="Package.ConnectionManagers[bi.unamurcs.be.DW_Team_G.Team_G]"
                       description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
@@ -4594,44 +4246,44 @@ where [refTable].[id] = ?</property>
                   </connections>
                   <inputs>
                     <input
-                      refId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+                      refId="Package\Conteneur de séquences\Load Time\Destination Time.Inputs[Entrée de destination OLE DB]"
                       errorOrTruncationOperation="Insérer"
                       errorRowDisposition="FailComponent"
                       hasSideEffects="true"
                       name="Entrée de destination OLE DB">
                       <inputColumns>
                         <inputColumn
-                          refId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Date]"
+                          refId="Package\Conteneur de séquences\Load Time\Destination Time.Inputs[Entrée de destination OLE DB].Columns[Date]"
                           cachedDataType="date"
                           cachedName="Date"
                           cachedSortKeyPosition="1"
-                          externalMetadataColumnId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Date]"
+                          externalMetadataColumnId="Package\Conteneur de séquences\Load Time\Destination Time.Inputs[Entrée de destination OLE DB].ExternalColumns[Date]"
                           lineageId="Package\Conteneur de séquences\Load Time\Trier 2.Outputs[Sortie de tri].Columns[Date]" />
                         <inputColumn
-                          refId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Year]"
+                          refId="Package\Conteneur de séquences\Load Time\Destination Time.Inputs[Entrée de destination OLE DB].Columns[Year]"
                           cachedDataType="i4"
                           cachedName="Year"
-                          externalMetadataColumnId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Year]"
+                          externalMetadataColumnId="Package\Conteneur de séquences\Load Time\Destination Time.Inputs[Entrée de destination OLE DB].ExternalColumns[Year]"
                           lineageId="Package\Conteneur de séquences\Load Time\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Year]" />
                         <inputColumn
-                          refId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[MonthNumber]"
+                          refId="Package\Conteneur de séquences\Load Time\Destination Time.Inputs[Entrée de destination OLE DB].Columns[MonthNumber]"
                           cachedDataType="i4"
                           cachedName="MonthNumber"
-                          externalMetadataColumnId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[MonthNumber]"
+                          externalMetadataColumnId="Package\Conteneur de séquences\Load Time\Destination Time.Inputs[Entrée de destination OLE DB].ExternalColumns[MonthNumber]"
                           lineageId="Package\Conteneur de séquences\Load Time\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[MonthNumber]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
                         <externalMetadataColumn
-                          refId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Date]"
+                          refId="Package\Conteneur de séquences\Load Time\Destination Time.Inputs[Entrée de destination OLE DB].ExternalColumns[Date]"
                           dataType="dbTimeStamp"
                           name="Date" />
                         <externalMetadataColumn
-                          refId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Year]"
+                          refId="Package\Conteneur de séquences\Load Time\Destination Time.Inputs[Entrée de destination OLE DB].ExternalColumns[Year]"
                           dataType="i4"
                           name="Year" />
                         <externalMetadataColumn
-                          refId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[MonthNumber]"
+                          refId="Package\Conteneur de séquences\Load Time\Destination Time.Inputs[Entrée de destination OLE DB].ExternalColumns[MonthNumber]"
                           dataType="i4"
                           name="MonthNumber" />
                       </externalMetadataColumns>
@@ -4639,22 +4291,22 @@ where [refTable].[id] = ?</property>
                   </inputs>
                   <outputs>
                     <output
-                      refId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
+                      refId="Package\Conteneur de séquences\Load Time\Destination Time.Outputs[Sortie d'erreur de destination OLE DB]"
                       exclusionGroup="1"
                       isErrorOut="true"
                       name="Sortie d'erreur de destination OLE DB"
-                      synchronousInputId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
+                      synchronousInputId="Package\Conteneur de séquences\Load Time\Destination Time.Inputs[Entrée de destination OLE DB]">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                          refId="Package\Conteneur de séquences\Load Time\Destination Time.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
                           dataType="i4"
-                          lineageId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                          lineageId="Package\Conteneur de séquences\Load Time\Destination Time.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
                           name="ErrorCode"
                           specialFlags="1" />
                         <outputColumn
-                          refId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                          refId="Package\Conteneur de séquences\Load Time\Destination Time.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
                           dataType="i4"
-                          lineageId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                          lineageId="Package\Conteneur de séquences\Load Time\Destination Time.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -5175,7 +4827,7 @@ where [refTable].[id] = ?</property>
                   startId="Package\Conteneur de séquences\Load Time\Fusionner.Outputs[Fusionner sortie 1]" />
                 <path
                   refId="Package\Conteneur de séquences\Load Time.Paths[Sortie de colonne dérivée]"
-                  endId="Package\Conteneur de séquences\Load Time\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+                  endId="Package\Conteneur de séquences\Load Time\Destination Time.Inputs[Entrée de destination OLE DB]"
                   name="Sortie de colonne dérivée"
                   startId="Package\Conteneur de séquences\Load Time\Colonne dérivée.Outputs[Sortie de colonne dérivée]" />
                 <path
@@ -9635,6 +9287,10 @@ where [refTable].[id] = ?</property>
           TopLeft="18.2833251045818,70.5833353565797" />
         <NodeLayout
           Size="150.4,41.6"
+          Id="Package\Conteneur de séquences\Load Ingredient"
+          TopLeft="20.4166579080955,287.200004297893" />
+        <NodeLayout
+          Size="150.4,41.6"
           Id="Package\Conteneur de séquences\Load MenuItem"
           TopLeft="20.8583227452307,125.783336348402" />
         <NodeLayout
@@ -9642,36 +9298,36 @@ where [refTable].[id] = ?</property>
           Id="Package\Conteneur de séquences\Load Restaurant"
           TopLeft="20.6916610125034,183.733336859809" />
         <NodeLayout
-          Size="127.2,41.6"
-          Id="Package\Conteneur de séquences\Load Time"
-          TopLeft="23.3583226458895,232.666667892668" />
-        <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\Conteneur de séquences\Load Ingredient"
-          TopLeft="20.4166579080955,287.200004297893" />
-        <NodeLayout
           Size="142.4,41.6"
           Id="Package\Conteneur de séquences\Load Supplier"
           TopLeft="24.2083293514118,339.08333809442" />
+        <NodeLayout
+          Size="127.2,41.6"
+          Id="Package\Conteneur de séquences\Load Time"
+          TopLeft="23.3583226458895,232.666667892668" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="204.8,436"
+          PanelSize="218.4,436"
           Size="218.4,479.2"
           Id="Package\Conteneur de séquences"
           TopLeft="101.041662651632,55.2500004390875" />
         <NodeLayout
-          Size="139.2,41.6"
-          Id="Package\Conteneur de séquences 1\Load Wastes"
-          TopLeft="22.2916355811897,4.2500013689199" />
+          Size="130.4,41.6"
+          Id="Package\Conteneur de séquences 1\Load Sales"
+          TopLeft="24.7453391873922,116.507409668469" />
+        <NodeLayout
+          Size="156.8,41.6"
+          Id="Package\Conteneur de séquences 1\Load SalesDetail"
+          TopLeft="16.3166389339517,202.100003399054" />
         <NodeLayout
           Size="171.2,41.6"
           Id="Package\Conteneur de séquences 1\Load SupplierPrices"
           TopLeft="16.8499709427354,53.6500017615156" />
         <NodeLayout
-          Size="130.4,41.6"
-          Id="Package\Conteneur de séquences 1\Load Sales"
-          TopLeft="24.7453391873922,116.507409668469" />
+          Size="139.2,41.6"
+          Id="Package\Conteneur de séquences 1\Load Wastes"
+          TopLeft="22.2916355811897,4.2500013689199" />
         <EdgeLayout
           Id="Package\Conteneur de séquences 1.PrecedenceConstraints[Contrainte]"
           TopLeft="92.330989060672,158.107409668469">
@@ -9694,10 +9350,6 @@ where [refTable].[id] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="156.8,41.6"
-          Id="Package\Conteneur de séquences 1\Load SalesDetail"
-          TopLeft="16.3166389339517,202.100003399054" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
@@ -9734,7 +9386,7 @@ where [refTable].[id] = ?</property>
     design-time-name="Package\Conteneur de séquences\Load Customer">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="159.2,41.6"
           Id="Package\Conteneur de séquences\Load Customer\Source Customer"
@@ -9762,9 +9414,7 @@ where [refTable].[id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -9800,7 +9450,7 @@ where [refTable].[id] = ?</property>
     design-time-name="Package\Conteneur de séquences\Load DeliveryService">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="186.4,41.6"
           Id="Package\Conteneur de séquences\Load DeliveryService\Source DeliveryService"
@@ -9828,9 +9478,7 @@ where [refTable].[id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -10064,9 +9712,7 @@ where [refTable].[id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10102,7 +9748,7 @@ where [refTable].[id] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -10112,7 +9758,7 @@ where [refTable].[id] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -10185,9 +9831,7 @@ where [refTable].[id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10317,50 +9961,30 @@ where [refTable].[id] = ?</property>
     design-time-name="Package\Conteneur de séquences\Load Supplier">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="179.2,41.6"
-          Id="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder"
-          TopLeft="457.499981820584,423.533334524896" />
+          Size="233.6,41.6"
+          Id="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation"
+          TopLeft="431.34918920893,700.560848658846" />
         <NodeLayout
           Size="152,41.6"
           Id="Package\Conteneur de séquences\Load Supplier\Lookup Country"
-          TopLeft="65.481481025249,283.00000175635" />
-        <NodeLayout
-          Size="160,41.6"
-          Id="Package\Conteneur de séquences\Load Supplier\Jointure de fusion"
-          TopLeft="286.666655275557,670.000004752477" />
-        <NodeLayout
-          Size="154.4,41.6"
-          Id="Package\Conteneur de séquences\Load Supplier\Colonne dérivée"
-          TopLeft="291.666655076875,779.133337376383" />
+          TopLeft="68.5767166133078,714.047621236907" />
         <NodeLayout
           Size="100,41.6"
           Id="Package\Conteneur de séquences\Load Supplier\Trier"
-          TopLeft="184.166659348541,532.73333539274" />
+          TopLeft="91.8915283559075,825.114287104602" />
         <NodeLayout
           Size="152,41.6"
           Id="Package\Conteneur de séquences\Load Supplier\Source Supplier"
-          TopLeft="60,60" />
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Conteneur de séquences\Load Supplier\Destination OLE DB"
-          TopLeft="288.333321875996,948.533337190416" />
-        <NodeLayout
-          Size="108,41.6"
-          Id="Package\Conteneur de séquences\Load Supplier\Trier 1"
-          TopLeft="494.166647030249,543.133335475392" />
-        <NodeLayout
-          Size="128.8,41.6"
-          Id="Package\Conteneur de séquences\Load Supplier\Agrégation"
-          TopLeft="304.16665458017,867.066670537525" />
+          TopLeft="63.0952355880588,491.047619480557" />
         <NodeLayout
           Size="148,41.6"
           Id="Package\Conteneur de séquences\Load Supplier\Lookup Region"
-          TopLeft="60.666666203076,163.266667479408" />
+          TopLeft="63.7619017911349,594.314286959965" />
         <EdgeLayout
           Id="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de source OLE DB]"
-          TopLeft="135.333333101538,101.6">
+          TopLeft="138.428568689597,532.647619480557">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10381,44 +10005,32 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de recherche avec correspondance1]"
-          TopLeft="141.481481025249,324.60000175635">
+          Id="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de recherche avec correspondance]"
+          TopLeft="143.234122484608,755.647621236907">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="92.6851783232921,208.13333363639"
+              EndConnector="0,69.4666658676946"
               Start="0,0"
-              End="92.6851783232921,200.63333363639">
+              End="0,61.9666658676946">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,100.066666818195" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,100.066666818195"
-                    Point2="0,104.066666818195"
-                    Point3="4,104.066666818195" />
-                  <mssgle:LineSegment
-                    End="88.6851783232921,104.066666818195" />
-                  <mssgle:CubicBezierSegment
-                    Point1="88.6851783232921,104.066666818195"
-                    Point2="92.6851783232921,104.066666818195"
-                    Point3="92.6851783232921,108.066666818195" />
-                  <mssgle:LineSegment
-                    End="92.6851783232921,200.63333363639" />
+                    End="0,61.9666658676946" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-45.334422557104,109.066666818195,183.3540234375,11.609375"
+              BoundingBox="-91.67701171875,25.1786454338473,183.3540234375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de recherche avec correspondance]"
-          TopLeft="138.074073614163,204.866667479408">
+          Id="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de recherche avec correspondance1]"
+          TopLeft="141.169309202222,635.914286959965">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10440,20 +10052,24 @@ where [refTable].[id] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="108,41.6"
+          Id="Package\Conteneur de séquences\Load Supplier\Trier 3"
+          TopLeft="500.925906020919,822.51851854913" />
         <EdgeLayout
-          Id="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de jointure de fusion]"
-          TopLeft="367.766655176216,711.600004752477">
+          Id="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de source OLE DB1]"
+          TopLeft="551.537547614925,742.160848658846">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,67.5333326239057"
+              EndConnector="0,80.357669890284"
               Start="0,0"
-              End="0,60.0333326239057">
+              End="0,72.857669890284">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,60.0333326239057" />
+                    End="0,72.857669890284" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10462,42 +10078,36 @@ where [refTable].[id] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="160,41.6"
+          Id="Package\Conteneur de séquences\Load Supplier\Jointure de fusion"
+          TopLeft="270.370359626818,935.333336937869" />
         <EdgeLayout
-          Id="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de colonne dérivée]"
-          TopLeft="368.716654828522,820.733337376383">
+          Id="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de tri]"
+          TopLeft="141.891528355907,866.714287104602">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,46.3333331611422"
+              EndConnector="208.47883127091,68.6190498332672"
               Start="0,0"
-              End="0,38.8333331611422">
+              End="208.47883127091,61.1190498332672">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,38.8333331611422" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Conteneur de séquences\Load Supplier.Paths[Sortie d'agrégation 1]"
-          TopLeft="371.249988228083,908.666670537525">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,39.8666666528915"
-              Start="0,0"
-              End="0,32.3666666528915">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
+                    End="0,30.3095249166336" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,30.3095249166336"
+                    Point2="0,34.3095249166336"
+                    Point3="4,34.3095249166336" />
                   <mssgle:LineSegment
-                    End="0,32.3666666528915" />
+                    End="204.47883127091,34.3095249166336" />
+                  <mssgle:CubicBezierSegment
+                    Point1="204.47883127091,34.3095249166336"
+                    Point2="208.47883127091,34.3095249166336"
+                    Point3="208.47883127091,38.3095249166336" />
+                  <mssgle:LineSegment
+                    End="208.47883127091,61.1190498332672" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10508,30 +10118,30 @@ where [refTable].[id] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de tri1]"
-          TopLeft="548.166647030249,584.733335475392">
+          TopLeft="554.925906020919,864.11851854913">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-156.166658421358,85.2666692770852"
+              EndConnector="-179.222213060768,71.2148183887384"
               Start="0,0"
-              End="-156.166658421358,77.7666692770852">
+              End="-179.222213060768,63.7148183887384">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,46.6534668972783" />
+                    End="0,38.3058327061812" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,46.6534668972783"
-                    Point2="0,50.6534668972783"
-                    Point3="-4,50.6534668972783" />
+                    Point1="0,38.3058327061812"
+                    Point2="0,42.3058327061812"
+                    Point3="-4,42.3058327061812" />
                   <mssgle:LineSegment
-                    End="-152.166658421358,50.6534668972783" />
+                    End="-175.222213060768,42.3058327061812" />
                   <mssgle:CubicBezierSegment
-                    Point1="-152.166658421358,50.6534668972783"
-                    Point2="-156.166658421358,50.6534668972783"
-                    Point3="-156.166658421358,54.6534668972783" />
+                    Point1="-175.222213060768,42.3058327061812"
+                    Point2="-179.222213060768,42.3058327061812"
+                    Point3="-179.222213060768,46.3058327061812" />
                   <mssgle:LineSegment
-                    End="-156.166658421358,77.7666692770852" />
+                    End="-179.222213060768,63.7148183887384" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10540,54 +10150,24 @@ where [refTable].[id] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Conteneur de séquences\Load Supplier\Destination Supplier"
+          TopLeft="267.592581959419,1015.40741074409" />
         <EdgeLayout
-          Id="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de tri]"
-          TopLeft="234.166659348541,574.33333539274">
+          Id="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de jointure de fusion]"
+          TopLeft="351.781470793118,976.933336937869">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="132.499995927016,95.6666693597369"
+              EndConnector="0,38.4740738062209"
               Start="0,0"
-              End="132.499995927016,88.1666693597369">
+              End="0,30.9740738062209">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,43.8333346798685" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,43.8333346798685"
-                    Point2="0,47.8333346798685"
-                    Point3="4,47.8333346798685" />
-                  <mssgle:LineSegment
-                    End="128.499995927016,47.8333346798685" />
-                  <mssgle:CubicBezierSegment
-                    Point1="128.499995927016,47.8333346798685"
-                    Point2="132.499995927016,47.8333346798685"
-                    Point3="132.499995927016,51.8333346798685" />
-                  <mssgle:LineSegment
-                    End="132.499995927016,88.1666693597369" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Conteneur de séquences\Load Supplier.Paths[Sortie de source OLE DB1]"
-          TopLeft="547.633314425416,465.133334524896">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,78.0000009504955"
-              Start="0,0"
-              End="0,70.5000009504955">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,70.5000009504955" />
+                    End="0,30.9740738062209" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10599,91 +10179,6 @@ where [refTable].[id] = ?</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Conteneur de séquences\Load Supplier\Source SupplierOrder">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Conteneur de séquences\Load Supplier\Lookup Country">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Country]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Conteneur de séquences\Load Supplier\Source Supplier">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Conteneur de séquences\Load Supplier\Destination OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Conteneur de séquences\Load Supplier\Lookup Region">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Region]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Conteneur de séquences\Load Time">
     <LayoutInfo>
@@ -10706,8 +10201,8 @@ where [refTable].[id] = ?</property>
           Id="Package\Conteneur de séquences\Load Time\Source Excel"
           TopLeft="92.9940473411291,41.2142850722585" />
         <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Conteneur de séquences\Load Time\Destination OLE DB"
+          Size="156.8,41.6"
+          Id="Package\Conteneur de séquences\Load Time\Destination Time"
           TopLeft="773.958302578994,491.333336157269" />
         <NodeLayout
           Size="185.6,41.6"
@@ -10899,14 +10394,14 @@ where [refTable].[id] = ?</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="118.516655821932,0"
+              EndConnector="118.516655821933,0"
               Start="0,0"
-              End="111.016655821932,0">
+              End="111.016655821933,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="111.016655821932,0" />
+                    End="111.016655821933,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10954,7 +10449,7 @@ where [refTable].[id] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Conteneur de séquences\Load Time\Destination OLE DB">
+    design-time-name="Package\Conteneur de séquences\Load Time\Destination Time">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -10985,81 +10480,29 @@ where [refTable].[id] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="185.6,41.6"
-          Id="Package\Conteneur de séquences 1\Load Sales\Source CustomerOrder"
-          TopLeft="182,70" />
-        <NodeLayout
           Size="216,41.6"
           Id="Package\Conteneur de séquences 1\Load Sales\Source OnlineCustomerOrder"
           TopLeft="482,94" />
+        <NodeLayout
+          Size="108,41.6"
+          Id="Package\Conteneur de séquences 1\Load Sales\Trier 1"
+          TopLeft="533,202" />
+        <NodeLayout
+          Size="160,41.6"
+          Id="Package\Conteneur de séquences 1\Load Sales\Jointure de fusion"
+          TopLeft="335,360" />
+        <NodeLayout
+          Size="185.6,41.6"
+          Id="Package\Conteneur de séquences 1\Load Sales\Source CustomerOrder"
+          TopLeft="182,70" />
         <NodeLayout
           Size="100,41.6"
           Id="Package\Conteneur de séquences 1\Load Sales\Trier"
           TopLeft="223,202" />
         <NodeLayout
-          Size="108,41.6"
-          Id="Package\Conteneur de séquences 1\Load Sales\Trier 1"
-          TopLeft="533,202" />
-        <EdgeLayout
-          Id="Package\Conteneur de séquences 1\Load Sales.Paths[Sortie de source OLE DB]"
-          TopLeft="588.5,135.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,66.3999999999999"
-              Start="0,0"
-              End="0,58.8999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,58.8999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="160,41.6"
-          Id="Package\Conteneur de séquences 1\Load Sales\Jointure de fusion"
-          TopLeft="335,360" />
-        <EdgeLayout
-          Id="Package\Conteneur de séquences 1\Load Sales.Paths[Sortie de tri]"
-          TopLeft="273,243.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="142,116.4"
-              Start="0,0"
-              End="142,108.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,54.1999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,54.1999999999999"
-                    Point2="0,58.1999999999999"
-                    Point3="4,58.1999999999999" />
-                  <mssgle:LineSegment
-                    End="138,58.1999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="138,58.1999999999999"
-                    Point2="142,58.1999999999999"
-                    Point3="142,62.1999999999999" />
-                  <mssgle:LineSegment
-                    End="142,108.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="159.2,41.6"
+          Id="Package\Conteneur de séquences 1\Load Sales\Destination Sales"
+          TopLeft="330,457" />
         <EdgeLayout
           Id="Package\Conteneur de séquences 1\Load Sales.Paths[Sortie de tri1]"
           TopLeft="587,243.6">
@@ -11095,6 +10538,40 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Conteneur de séquences 1\Load Sales.Paths[Sortie de tri]"
+          TopLeft="273,243.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="142,116.4"
+              Start="0,0"
+              End="142,108.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,54.1999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,54.1999999999999"
+                    Point2="0,58.1999999999999"
+                    Point3="4,58.1999999999999" />
+                  <mssgle:LineSegment
+                    End="138,58.1999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="138,58.1999999999999"
+                    Point2="142,58.1999999999999"
+                    Point3="142,62.1999999999999" />
+                  <mssgle:LineSegment
+                    End="142,108.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Conteneur de séquences 1\Load Sales.Paths[Sortie de source OLE DB1]"
           TopLeft="273.9,111.6">
           <EdgeLayout.Curve>
@@ -11116,10 +10593,28 @@ where [refTable].[id] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="159.2,41.6"
-          Id="Package\Conteneur de séquences 1\Load Sales\Destination Sales"
-          TopLeft="330,457" />
+        <EdgeLayout
+          Id="Package\Conteneur de séquences 1\Load Sales.Paths[Sortie de source OLE DB]"
+          TopLeft="588.5,135.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,66.3999999999999"
+              Start="0,0"
+              End="0,58.8999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,58.8999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Conteneur de séquences 1\Load Sales.Paths[Sortie de jointure de fusion]"
           TopLeft="412.3,401.6">
@@ -11145,33 +10640,72 @@ where [refTable].[id] = ?</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Conteneur de séquences 1\Load Sales\Source OnlineCustomerOrder">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Conteneur de séquences 1\Load Sales\Source CustomerOrder">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Conteneur de séquences 1\Load Sales\Destination Sales">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Conteneur de séquences 1\Load SupplierPrices">
+    design-time-name="Package\Conteneur de séquences 1\Load SalesDetail">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="211.2,41.6"
-          Id="Package\Conteneur de séquences 1\Load SupplierPrices\Source SupplierOrderDetails"
-          TopLeft="122.499995132288,95.3333340909746" />
+          Size="217.6,41.6"
+          Id="Package\Conteneur de séquences 1\Load SalesDetail\Source CustomerOrderDetails"
+          TopLeft="550,156.363636363636" />
         <NodeLayout
-          Size="112.8,41.6"
-          Id="Package\Conteneur de séquences 1\Load SupplierPrices\Lookup"
-          TopLeft="178.333326247004,183.733334793515" />
+          Size="186.4,41.6"
+          Id="Package\Conteneur de séquences 1\Load SalesDetail\Destination SalesDetail"
+          TopLeft="567.272727272727,264.636363636364" />
         <EdgeLayout
-          Id="Package\Conteneur de séquences 1\Load SupplierPrices.Paths[Sortie de source OLE DB]"
-          TopLeft="231.416660689646,136.933334090975">
+          Id="Package\Conteneur de séquences 1\Load SalesDetail.Paths[Sortie de source OLE DB]"
+          TopLeft="659.636363636364,197.963636363636">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,46.8000007025402"
+              EndConnector="0,66.672727272728"
               Start="0,0"
-              End="0,39.3000007025402">
+              End="0,59.172727272728">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,39.3000007025402" />
+                    End="0,59.172727272728" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -11180,14 +10714,60 @@ where [refTable].[id] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Conteneur de séquences 1\Load SalesDetail\Destination SalesDetail">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Conteneur de séquences 1\Load SalesDetail\Source CustomerOrderDetails">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Conteneur de séquences 1\Load SupplierPrices">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="128.8,41.6"
           Id="Package\Conteneur de séquences 1\Load SupplierPrices\Agrégation"
           TopLeft="169.999993244807,370.933336281247" />
         <NodeLayout
+          Size="193.6,41.6"
+          Id="Package\Conteneur de séquences 1\Load SupplierPrices\Destination SellingPrices"
+          TopLeft="138.333327836461,461.93333700445" />
+        <NodeLayout
+          Size="211.2,41.6"
+          Id="Package\Conteneur de séquences 1\Load SupplierPrices\Source SupplierOrderDetails"
+          TopLeft="122.499995132288,95.3333340909746" />
+        <NodeLayout
           Size="188,41.6"
           Id="Package\Conteneur de séquences 1\Load SupplierPrices\Conversion de données"
           TopLeft="135.833327935802,296.400002355576" />
+        <NodeLayout
+          Size="112.8,41.6"
+          Id="Package\Conteneur de séquences 1\Load SupplierPrices\Lookup"
+          TopLeft="178.333326247004,183.733334793515" />
         <EdgeLayout
           Id="Package\Conteneur de séquences 1\Load SupplierPrices.Paths[Sortie de recherche avec correspondance]"
           TopLeft="232.283327091403,225.333334793515">
@@ -11234,10 +10814,6 @@ where [refTable].[id] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="193.6,41.6"
-          Id="Package\Conteneur de séquences 1\Load SupplierPrices\Destination SellingPrices"
-          TopLeft="138.333327836461,461.93333700445" />
         <EdgeLayout
           Id="Package\Conteneur de séquences 1\Load SupplierPrices.Paths[Sortie d'agrégation 1]"
           TopLeft="234.766660540634,412.533336281247">
@@ -11260,9 +10836,80 @@ where [refTable].[id] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Conteneur de séquences 1\Load SupplierPrices.Paths[Sortie de source OLE DB]"
+          TopLeft="231.416660689646,136.933334090975">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46.8000007025402"
+              Start="0,0"
+              End="0,39.3000007025402">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39.3000007025402" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Conteneur de séquences 1\Load SupplierPrices\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[SupplierOrder]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Conteneur de séquences 1\Load SupplierPrices\Source SupplierOrderDetails">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Conteneur de séquences 1\Load SupplierPrices\Destination SellingPrices">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Conteneur de séquences 1\Load Wastes">
     <LayoutInfo>
@@ -11789,146 +11436,15 @@ where [refTable].[id] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Conteneur de séquences 1\Load SupplierPrices\Source SupplierOrderDetails">
+    design-time-name="Package\Conteneur de séquences\Load Supplier\Source Score &amp; StandarDeviation">
     <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Conteneur de séquences 1\Load SupplierPrices\Lookup">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[SupplierOrder]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Conteneur de séquences 1\Load SupplierPrices\Destination SellingPrices">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Conteneur de séquences 1\Load Sales\Source CustomerOrder">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Conteneur de séquences 1\Load Sales\Source OnlineCustomerOrder">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Conteneur de séquences 1\Load SalesDetail">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="217.6,41.6"
-          Id="Package\Conteneur de séquences 1\Load SalesDetail\Source CustomerOrderDetails"
-          TopLeft="550,156.363636363636" />
-        <NodeLayout
-          Size="186.4,41.6"
-          Id="Package\Conteneur de séquences 1\Load SalesDetail\Destination SalesDetail"
-          TopLeft="567.272727272727,463.636363636364" />
-        <EdgeLayout
-          Id="Package\Conteneur de séquences 1\Load SalesDetail.Paths[Sortie de source OLE DB]"
-          TopLeft="659.636363636364,197.963636363636">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,265.672727272727"
-              Start="0,0"
-              End="0,258.172727272727">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,258.172727272727" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Conteneur de séquences 1\Load Sales\Destination Sales">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Conteneur de séquences 1\Load SalesDetail\Source CustomerOrderDetails">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Conteneur de séquences 1\Load SalesDetail\Destination SalesDetail">
+    design-time-name="Package\Conteneur de séquences\Load Supplier\Destination Supplier">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
